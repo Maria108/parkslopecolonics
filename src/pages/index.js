@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`colonic`, `brooklyn`, `newyork`]} />
     <Grid>
-      <div className="main-div pic-one">
+      <Col className="main-div pic-one">
         <Row>
           <Col xs={6} md={7}>
             <div className="on-top">
@@ -39,7 +39,7 @@ const IndexPage = () => (
             </div>
           </Col>
         </Row>
-      </div>
+      </Col>
     </Grid>
     <div className="second-section">
       <Grid>
