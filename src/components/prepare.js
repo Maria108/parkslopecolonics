@@ -91,7 +91,7 @@ const Prepare = () => (
                       {' '}
                       <span className="icon-do">
                         <FaCheck />
-                      </span>
+                      </span>{' '}
                       INCLUDE
                     </p>
                     <p className="info-about-colon">
@@ -145,7 +145,7 @@ const Prepare = () => (
                   </div>
                 </Col>
                 <Col xs={12} md={12}>
-                  <div className="recommendations">
+                  <div className="recommendations-bottom">
                     <p>
                       On the day of your session you should come on empty
                       stomach, stop eating at least 3,5 hours leading up to your

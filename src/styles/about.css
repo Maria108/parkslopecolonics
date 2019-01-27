@@ -23,10 +23,18 @@
 }
 
 .info-about-colon {
-  padding: 5px;
+  margin: 7px;
   text-align: justify;
   color: #000;
   font-size: 15px;
+}
+
+.info-benefit {
+  padding: 5px;
+  text-align: justify;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .info-about-colon-dos {
@@ -163,10 +171,27 @@
 }
 
 .recommendations {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: black;
   font-size: 15px;
   font-weight: bold;
+  text-align: justify;
+}
+
+.recommendations-bottom {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.benefits {
+  color: black;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -178,13 +203,12 @@
 .icon-do {
   font-size: 26px;
   color: #45c445;
-  vertical-align: middle;
 }
 
 .icon-dont {
   font-size: 26px;
   color: red;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .avoid {
