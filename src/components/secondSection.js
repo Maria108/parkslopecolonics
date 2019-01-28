@@ -4,64 +4,48 @@ import '../styles/about.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
 import {
-  FaWind,
-  FaToiletPaper,
-  FaBatteryQuarter,
+  FaChild,
+  FaFeatherAlt,
+  FaGem,
+  FaCheck,
   FaHippo,
   FaRegMehRollingEyes,
   FaRegDizzy,
-  FaRegCheckSquare,
 } from 'react-icons/fa'
 
 const SecondSection = () => (
   <Grid>
     <Row>
-      <Col xs={12} md={4}>
-        <div className="image-about-about">
-          <div className="poop-icon">
-            <FaBatteryQuarter />
-          </div>
-          <p className="myth">LOOK</p>
-          <div>
-            <p className="points">
-              <FaRegCheckSquare /> Eliminate bloating
-            </p>
-            <p className="points">
-              <FaRegCheckSquare /> Increase energy
-            </p>
-            <p className="points">
-              <FaRegCheckSquare /> Boost immunity
-            </p>
-            <p className="points">
-              <FaRegCheckSquare /> Clear skin
-            </p>
-            <p className="points">
-              <FaRegCheckSquare /> Detoxify your body
-            </p>
-          </div>
-        </div>
+      <Col xs={12} md={12}>
+        <p className="what-will-get">What Will You Get Out Off The Treatment</p>
+        <p className="recommendations">
+          In the words of my clients the past 4 years…they have repeatedly
+          shared the following…
+        </p>
       </Col>
+    </Row>
+    <Row>
       <Col xs={12} md={4}>
         <div className="image-about-about">
           <div className="poop-icon">
-            <FaWind />
+            <FaFeatherAlt />
           </div>
           <p className="myth">FEEL</p>
           <div>
             <p className="points">
-              <FaRegCheckSquare /> Eliminate bloating
+              <FaCheck /> Lighter and Brighter!
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Increase energy
+              <FaCheck /> Eliminate bloating
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Boost immunity
+              <FaCheck /> Get clear glowing skin
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Clear skin
+              <FaCheck /> Enhance elimination
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Detoxify your body
+              <FaCheck /> Improve digestion
             </p>
           </div>
         </div>
@@ -69,27 +53,60 @@ const SecondSection = () => (
       <Col xs={12} md={4}>
         <div className="image-about-about">
           <div className="poop-icon">
-            <FaToiletPaper />
+            <FaGem />
+          </div>
+          <p className="myth">LOOK</p>
+          <div>
+            <p className="points">
+              <FaCheck /> Radiant!
+            </p>
+            <p className="points">
+              <FaCheck /> Loose extra inches
+            </p>
+            <p className="points">
+              <FaCheck /> Reduce inflammation
+            </p>
+            <p className="points">
+              <FaCheck /> Decrease puffiness
+            </p>
+            <p className="points">
+              <FaCheck /> Maintain youthfulness
+            </p>
+          </div>
+        </div>
+      </Col>
+      <Col xs={12} md={4}>
+        <div className="image-about-about">
+          <div className="poop-icon">
+            <FaChild />
           </div>
           <p className="myth">EXPERIENCE</p>
           <div>
             <p className="points">
-              <FaRegCheckSquare /> Eliminate bloating
+              <FaCheck /> Function at your optimum level
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Increase energy
+              <FaCheck /> Think clearly
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Boost immunity
+              <FaCheck /> Reduce anxiety
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Clear skin
+              <FaCheck /> Absorb nutrients better
             </p>
             <p className="points">
-              <FaRegCheckSquare /> Detoxify your body
+              <FaCheck /> Boost your immune system
             </p>
           </div>
         </div>
+      </Col>
+    </Row>
+    <Row>
+      <Col xs={12} md={12}>
+        <p className="recommendations-b">
+          In short, enhance your overall sense of physical & mental wellbeing.
+          You will feel the difference even after one session. Happy to help!
+        </p>
       </Col>
     </Row>
   </Grid>
