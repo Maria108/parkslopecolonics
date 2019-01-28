@@ -87,7 +87,6 @@ small {
 sub,
 sup {
   font-size: 75%;
-  line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
@@ -278,7 +277,6 @@ h1 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
-  line-height: 1.1;
 }
 
 h2 {
@@ -296,7 +294,6 @@ h2 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
-  line-height: 1.1;
 }
 
 h3 {
@@ -314,7 +311,6 @@ h3 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
-  line-height: 1.1;
 }
 
 h4 {
@@ -332,7 +328,6 @@ h4 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
-  line-height: 1.1;
 }
 
 h5 {
@@ -350,7 +345,6 @@ h5 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
-  line-height: 1.1;
 }
 
 h6 {
@@ -368,7 +362,6 @@ h6 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
-  line-height: 1.1;
 }
 
 hgroup {
@@ -448,7 +441,7 @@ figure {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
 }
 
 pre {
@@ -461,7 +454,6 @@ pre {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-size: 0.85rem;
-  line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   overflow: auto;
@@ -479,7 +471,6 @@ table {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-size: 1rem;
-  line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
 }
@@ -622,17 +613,14 @@ li>p {
 
 code {
   font-size: 0.85rem;
-  line-height: 1.45rem;
 }
 
 kbd {
   font-size: 0.85rem;
-  line-height: 1.45rem;
 }
 
 samp {
   font-size: 0.85rem;
-  line-height: 1.45rem;
 }
 
 abbr {
@@ -692,7 +680,6 @@ code {
 
 pre code {
   background: none;
-  line-height: 1.42;
 }
 
 code:before,
