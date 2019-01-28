@@ -5,6 +5,9 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Row, Col, Grid } from 'react-bootstrap'
 
+import Oldlinks from '../components/oldlinks'
+import SecondSection from '../components/secondSection'
+
 import { FaRegCheckSquare } from 'react-icons/fa'
 
 import '../styles/home.css'
@@ -42,31 +45,7 @@ const IndexPage = () => (
       </Col>
     </Grid>
     <div className="second-section">
-      <Grid>
-        <Row>
-          <Col xs={12} md={4}>
-            <div className="page-link">
-              <Link className="img-page-link" to="/about/">
-                ABOUT COLONIC
-              </Link>
-            </div>
-          </Col>
-          <Col xs={12} md={4}>
-            <div className="page-link">
-              <Link className="img-page-link" to="/faq">
-                FAQ and PRICE
-              </Link>
-            </div>
-          </Col>
-          <Col xs={12} md={4}>
-            <div className="page-link">
-              <Link className="img-page-link" to="/testimonials">
-                TESTIMONIALS
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Grid>
+      <SecondSection />
     </div>
     <Grid>
       <div className="main-div-about pic-four">
