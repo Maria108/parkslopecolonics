@@ -12,7 +12,7 @@ const Prepare = () => (
       <div className="opacity-dive">
         <Row>
           <Col xs={4} md={4} />
-          <Col xs={8} md={8}>
+          <Col xs={12} md={8}>
             <div className="white-bckgrnd-about">
               <Row>
                 <Col xs={12} md={12}>
@@ -27,7 +27,7 @@ const Prepare = () => (
                     <p>Few days prior and right after your colonic session:</p>
                   </div>
                 </Col>
-                <Col xs={5} md={5}>
+                <Col xs={2} md={5}>
                   <div className="avoid">
                     <p className="info-about-colon-dos">
                       <span className="icon-dont">
@@ -85,7 +85,7 @@ const Prepare = () => (
                     </p>
                   </div>
                 </Col>
-                <Col xs={7} md={7}>
+                <Col xs={2} md={7}>
                   <div className="include">
                     <p className="info-about-colon-dos">
                       {' '}
