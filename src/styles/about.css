@@ -218,3 +218,9 @@
 .include {
   margin-right: 30px;
 }
+
+/* @media (max-width: 480px) {
+  .loginFeature: {
+    display: none;
+  }
+} */
