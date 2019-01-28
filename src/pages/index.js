@@ -23,23 +23,6 @@ const IndexPage = () => (
             <div className="on-top">
               <p>Powerful detoxification methods for a healthy life</p>
             </div>
-            <div>
-              <p className="points">
-                <FaRegCheckSquare /> Eliminate bloating
-              </p>
-              <p className="points">
-                <FaRegCheckSquare /> Increase energy
-              </p>
-              <p className="points">
-                <FaRegCheckSquare /> Boost immunity
-              </p>
-              <p className="points">
-                <FaRegCheckSquare /> Clear skin
-              </p>
-              <p className="points">
-                <FaRegCheckSquare /> Detoxify your body
-              </p>
-            </div>
           </Col>
         </Row>
       </Col>
