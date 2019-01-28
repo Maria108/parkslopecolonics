@@ -37,6 +37,9 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
+                <Link to="/">HOME</Link>
+              </NavItem>
+              <NavItem>
                 <Link to="/about">GRAVITY METHOD COLONICS</Link>
               </NavItem>
               <NavItem>
