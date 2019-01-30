@@ -32,7 +32,7 @@ export default class Example extends React.Component {
     return (
       <Grid>
         <Navbar color="white" light expand="md">
-          <NavbarBrand href="/">PARK SLOPE COLONICS</NavbarBrand>
+          <NavbarBrand href="/">Park Slope Colonics</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

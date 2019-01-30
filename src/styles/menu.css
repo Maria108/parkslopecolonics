@@ -57,24 +57,15 @@ a:focus {
   padding: 0;
   font-size: 30px;
   color: black !important; */
-  font-size: 1.25rem !important;
+  font-size: 2rem !important;
+  font-family: 'Great Vibes', cursive;
   /* margin-top: 30px !important; */
 
 }
 
-@media (min-width: 750px) {
+@media (max-width: 750px) {
   .navbar-brand {
-    /* position: absolute; */
-    /* width: 100%;
-    left: 0;
-    top: 15px;
-    text-align: center;
-    padding: 0;
-    font-size: 30px;
-    color: black !important; */
-    font-size: 1rem !important;
-    /* margin-top: 30px !important; */
-
+    font-size: 1.5rem !important;
   }
 }
 
