@@ -7,6 +7,7 @@ import { Row, Col, Grid } from 'react-bootstrap'
 
 import Oldlinks from '../components/oldlinks'
 import SecondSection from '../components/secondSection'
+import Testimonials from '../components/testimonials'
 
 import { FaRegCheckSquare } from 'react-icons/fa'
 
@@ -21,7 +22,7 @@ const IndexPage = () => (
         <Row>
           <Col xs={6} md={7}>
             <div className="on-top">
-              <p>Powerful detoxification methods for a healthy life</p>
+              <p>Lighter & Brighter with Park Slope Colonics</p>
             </div>
           </Col>
         </Row>
@@ -42,14 +43,20 @@ const IndexPage = () => (
           <Col xs={6} md={7}>
             <div className="bio">
               <p>
-                Lena Bykova is a certified colon hydrotherapist, certified
-                holistic nutritionist and the owner of Park Slope Colonics.
+                My name is Lena Bykova, I am a certified colon hydrotherapist,
+                certified holistic nutritionist and the owner of Park Slope
+                Colonics. Using gravity method as my preffered, I have been
+                performing over a 1000 colonics each year since 2014 and got
+                nothing but positive feedback.
               </p>
             </div>
           </Col>
         </Row>
       </div>
     </Grid>
+    <div className="testimonials-section">
+      <Testimonials />
+    </div>
   </Layout>
 )
 

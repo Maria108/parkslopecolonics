@@ -40,13 +40,13 @@
 
 .on-top {
   text-align: left;
-  font-size: 29px;
-  background-color: #ffffffa6;
+  font-size: 30px;
+  background-color: #ffffffde;
   margin-top: 30%;
   /* margin-bottom: 35px; */
   padding: 20px;
   box-shadow: 0px 0px 10px -3px #000;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Great Vibes', cursive;
   color: black;
   line-height: 20px;
 }
@@ -54,7 +54,7 @@
 .bio {
   text-align: justify;
   font-size: 20px;
-  background-color: #ffffffa6;
+  background-color: #ffffffde;
   margin-top: 20%;
   margin-bottom: 10px;
   padding: 20px;
@@ -84,4 +84,11 @@
   padding-top: 15px;
   text-align: center;
   margin-bottom: 0 !important;
+}
+
+.what-they-say {
+  font-size: 30px;
+  border-top: 1px solid black;
+  padding-top: 15px;
+  text-align: center;
 }
