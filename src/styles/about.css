@@ -175,6 +175,13 @@
   text-align: center;
 }
 
+.about-colonic {
+  padding: 20px !important;
+  color: black;
+  font-size: 17px;
+  text-align: justify;
+}
+
 .recommendations-b {
   padding-left: 20px;
   padding-right: 20px;
@@ -224,20 +231,4 @@
 
 .include {
   margin-right: 30px;
-}
-
-.what-will-get {
-  font-size: 30px;
-  border-top: 1px solid black;
-  padding-top: 15px;
-  text-align: center;
-}
-
-@media (max-width: 750px) {
-  .what-will-get {
-    font-size: 30px;
-    border-top: 1px solid black;
-    padding-top: 15px;
-    text-align: center;
-  }
 }

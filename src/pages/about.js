@@ -25,7 +25,7 @@ const About = () => (
     <SEO title="about" />
     <Grid>
       <Col xs={12} md={12} className="how-you-know">
-        <p>GRAVITY METHOD COLONIC</p>
+        <p>GRAVITY METHOD COLONICS</p>
       </Col>
       <Benefits />
     </Grid>
