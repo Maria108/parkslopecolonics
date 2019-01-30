@@ -19,7 +19,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`colonic`, `brooklyn`, `newyork`]} />
     <Grid>
-      <Col className="main-div pic-one">
+      <Col className="first-section-home">
         <Row>
           <Col xs={6} md={7}>
             <div className="on-top">
@@ -38,17 +38,17 @@ const IndexPage = () => (
           <p className="about-me">Meet Your Therapist</p>
         </Col>
       </Row>
-      <div className="main-div-about pic-four">
+      <div className="div-about-lena-home">
         <Row>
           <Col xs={6} md={5} />
           <Col xs={6} md={7}>
             <div className="bio">
               <p>
-                My name is Lena Bykova, I am a certified colon hydrotherapist,
-                certified holistic nutritionist and the owner of Park Slope
-                Colonics. Using gravity method as my preffered, I have been
-                performing over a 1000 colonics each year since 2014 and got
-                nothing but positive feedback.
+                I am Lena Bykova, a certified colon hydrotherapist, certified
+                holistic nutritionist and the owner of Park Slope Colonics.
+                Using gravity method as my preffered, I have been performing
+                over a 1000 colonics each year since 2014 and got nothing but
+                positive feedback. Happy to help!
               </p>
             </div>
           </Col>
