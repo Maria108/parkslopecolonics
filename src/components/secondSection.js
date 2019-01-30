@@ -3,15 +3,8 @@ import React from 'react'
 import '../styles/about.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
-import {
-  FaChild,
-  FaFeatherAlt,
-  FaGem,
-  FaCheck,
-  FaHippo,
-  FaRegMehRollingEyes,
-  FaRegDizzy,
-} from 'react-icons/fa'
+import { FaChild, FaFeatherAlt, FaGem } from 'react-icons/fa'
+import { IoMdCheckmark } from 'react-icons/io'
 
 const SecondSection = () => (
   <Grid>
@@ -33,19 +26,19 @@ const SecondSection = () => (
           <p className="myth">FEEL</p>
           <div>
             <p className="points">
-              <FaCheck /> Lighter and Brighter!
+              <IoMdCheckmark /> Lighter and Brighter!
             </p>
             <p className="points">
-              <FaCheck /> Eliminate bloating
+              <IoMdCheckmark /> Eliminate bloating
             </p>
             <p className="points">
-              <FaCheck /> Get clear glowing skin
+              <IoMdCheckmark /> Reduce inflammation
             </p>
             <p className="points">
-              <FaCheck /> Enhance elimination
+              <IoMdCheckmark /> Enhance elimination
             </p>
             <p className="points">
-              <FaCheck /> Improve digestion
+              <IoMdCheckmark /> Improve digestion
             </p>
           </div>
         </div>
@@ -58,19 +51,19 @@ const SecondSection = () => (
           <p className="myth">LOOK</p>
           <div>
             <p className="points">
-              <FaCheck /> Radiant!
+              <IoMdCheckmark /> Radiant!
             </p>
             <p className="points">
-              <FaCheck /> Loose extra inches
+              <IoMdCheckmark /> Loose extra inches
             </p>
             <p className="points">
-              <FaCheck /> Reduce inflammation
+              <IoMdCheckmark /> Get clear glowing skin
             </p>
             <p className="points">
-              <FaCheck /> Decrease puffiness
+              <IoMdCheckmark /> Decrease puffiness
             </p>
             <p className="points">
-              <FaCheck /> Maintain youthfulness
+              <IoMdCheckmark /> Maintain youthfulness
             </p>
           </div>
         </div>
@@ -83,19 +76,19 @@ const SecondSection = () => (
           <p className="myth">EXPERIENCE</p>
           <div>
             <p className="points">
-              <FaCheck /> Function at your optimum level
+              <IoMdCheckmark /> Function at your optimum level
             </p>
             <p className="points">
-              <FaCheck /> Think clearly
+              <IoMdCheckmark /> Think clearly
             </p>
             <p className="points">
-              <FaCheck /> Reduce anxiety
+              <IoMdCheckmark /> Reduce anxiety
             </p>
             <p className="points">
-              <FaCheck /> Absorb nutrients better
+              <IoMdCheckmark /> Absorb nutrients better
             </p>
             <p className="points">
-              <FaCheck /> Boost your immune system
+              <IoMdCheckmark /> Boost your immune system
             </p>
           </div>
         </div>
