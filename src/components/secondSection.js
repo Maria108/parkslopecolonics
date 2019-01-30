@@ -10,10 +10,9 @@ const SecondSection = () => (
   <Grid>
     <Row>
       <Col xs={12} md={12}>
-        <p className="what-will-get">What Will You Get Out Off The Treatment</p>
+        <p className="what-will-get">What Will You Get Out Of The Treatment</p>
         <p className="recommendations">
-          In the words of my clients the past 4 years…they have repeatedly
-          shared the following…
+          In the words of my clients they have repeatedly shared the following…
         </p>
       </Col>
     </Row>
@@ -98,7 +97,7 @@ const SecondSection = () => (
       <Col xs={12} md={12}>
         <p className="recommendations-b">
           In short, enhance your overall sense of physical & mental wellbeing.
-          You will feel the difference even after one session. Happy to help!
+          Most people feel the difference even after one session.
         </p>
       </Col>
     </Row>
