@@ -1,9 +1,9 @@
 import React from 'react'
 
 import '../styles/home.css'
+import '../styles/testimonials.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
-import { FaChild, FaFeatherAlt, FaGem } from 'react-icons/fa'
 import { IoMdStar } from 'react-icons/io'
 
 const Testimonials = () => (
