@@ -29,8 +29,17 @@
 }
 
 .testimon {
-  font-size: 20px;
+  font-size: 15px;
   text-align: right;
 
   /* padding-bottom: 20px; */
+}
+
+.review {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rating {
+  color: gold;
 }
