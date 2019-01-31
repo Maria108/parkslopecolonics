@@ -9,6 +9,7 @@ import Oldlinks from '../components/oldlinks'
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
 import TestimonialsNew from '../components/newtestimonials'
+import Responsive from '../components/slide'
 
 import { FaRegCheckSquare } from 'react-icons/fa'
 
@@ -17,7 +18,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`colonic`, `brooklyn`, `newyork`]} />
+    <SEO
+      title="Home"
+      keywords={[`colonic`, `brooklyn`, `newyork`, `colonics`, `park slope`]}
+    />
     <Grid>
       <Col className="first-section-home">
         <Row>
