@@ -30,3 +30,38 @@ a {
 .box-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.342);
 }
+
+.input-t {
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 28px;
+  margin-left: 27px;
+}
+
+.input-t-2 {
+  border: 1px black solid;
+  /* color: beige; */
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  /* border-right: none; */
+  height: 28px;
+  /* margin-left: 27px; */
+}
+
+.input-message {
+  border: 1px black solid;
+  /* color: beige; */
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  /* border-right: none; */
+}
+
+.message-me {
+  margin-bottom: 0;
+}

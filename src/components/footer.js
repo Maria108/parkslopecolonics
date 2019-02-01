@@ -26,15 +26,35 @@ const Footer = () => (
         </Col>
         <Col xs={6} md={6}>
           <div>
-            <p>Visit</p>
-            <Link to="/instagram">
-              <i class="fab fa-instagram" /> Instagram
-            </Link>
-            <p>
-              <Link to="/About">
-                <i class="fab fa-facebook-square" /> Facebook
-              </Link>
-            </p>
+            <form name="contact" method="POST" data-netlify="true">
+              <p className="message-me">
+                <label>
+                  Name{' '}
+                  <p>
+                    <input className="input-t-2" type="text" name="name" />
+                  </p>
+                </label>
+              </p>
+              <p className="message-me">
+                <label>
+                  Email{' '}
+                  <p>
+                    <input className="input-t-2" type="email" name="email" />
+                  </p>
+                </label>
+              </p>
+              <p className="message-me">
+                <label>
+                  Message:{' '}
+                  <p>
+                    <textarea className="input-message" name="message" />
+                  </p>
+                </label>
+              </p>
+              <p className="message-me">
+                <button type="submit">Send</button>
+              </p>
+            </form>
           </div>
         </Col>
       </Row>
