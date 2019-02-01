@@ -11,7 +11,7 @@ const SecondSection = () => (
     <Row>
       <Col xs={12} md={12}>
         <p className="what-will-get">What Will You Get Out Of The Treatment</p>
-        <p className="recommendations">
+        <p className="in-the-words">
           In the words of my clients they have repeatedly shared the following…
         </p>
       </Col>
