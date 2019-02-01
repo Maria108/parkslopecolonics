@@ -32,7 +32,7 @@ const Testimonials = () => (
           this establishment if you are looking for improvements in you overall
           health and well being-
         </p>
-        <p className="testimon">-Karina V-</p>
+        <p className="testimon">-Tiffany W-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -58,7 +58,7 @@ const Testimonials = () => (
           I am cleaning my digestive system my immune system is becoming
           stronger. Thanks Elena for all your help-
         </p>
-        <p className="testimon">-Jason M-</p>
+        <p className="testimon">-Maria A-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -69,13 +69,13 @@ const Testimonials = () => (
           <IoMdStar />
         </p>
         <p className="review">
-          -I love coming to Park slope colonics, it's a cosy space, very private
+          -I love coming to Park slope Colonics, it's a cosy space, very private
           makes me feel calm and peaceful. I see Elena for my colonics and every
           time I feel amazing after!! Elena makes the experience very
           comfortable for me and I feel like I'm in good hands. Highly
           recommend!-
         </p>
-        <p className="testimon">-Patricia N-</p>
+        <p className="testimon">-Anna S-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -86,10 +86,14 @@ const Testimonials = () => (
           <IoMdStar />
         </p>
         <p className="review">
-          -This is amazing. Feel so much better. Lena is the best therapist in
-          the world!-
+          -I’ve been working with Elena for over 2 years now. I’ve had issues
+          with gas and bloating, but since I started having treatments with
+          Elena everything has cleared up. She is so knowledgeable and has
+          helped me to be more aware about my diet and cleansing. She is very
+          patient and kind and makes the whole process a favorable experience. I
+          highly recommend having a Colonic with Elena!-
         </p>
-        <p className="testimon">-Maria A-</p>
+        <p className="testimon">-Athena T-</p>
       </Col>
     </Row>
   </Grid>
