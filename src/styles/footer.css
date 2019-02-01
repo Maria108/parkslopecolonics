@@ -8,7 +8,7 @@
   line-height: 50px;
   background-color: white;
   font-family: 'ZCOOL XiaoWei', serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .footer-list {
@@ -49,6 +49,7 @@ a {
   border-left: none;
   /* border-right: none; */
   height: 28px;
+  width: 200px;
   /* margin-left: 27px; */
 }
 
@@ -64,4 +65,18 @@ a {
 
 .message-me {
   margin-bottom: 0;
+  line-height: 1.7;
+}
+
+.btn-form {
+  width: 100px;
+  height: 40px;
+  border-radius: 1px;
+  background-color: white !important;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 0px #3871d38f;
+}
+
+.let-connect {
+  margin: 0 !important;
 }
