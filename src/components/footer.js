@@ -26,7 +26,7 @@ const Footer = () => (
         </Col>
         <Col xs={6} md={6}>
           <div>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" netlify>
               <p className="message-me">
                 <label>
                   Name{' '}
