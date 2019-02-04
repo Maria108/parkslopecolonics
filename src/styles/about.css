@@ -57,19 +57,13 @@
 .main-div-colon {
   /* padding-bottom: 100px; */
   height: auto;
-  min-height: 80vh;
+  min-height: 70vh;
   /* margin-top: 70px; */
 }
 
 .opacity-div {
   /* height: auto; */
   background-color: #ffffff60;
-}
-
-.white-bckgrnd-about {
-  /* border: 1px solid black; */
-  margin: 40px;
-  background-color: white;
 }
 
 .app-btn {
@@ -120,7 +114,7 @@
 }
 
 .how-you-know {
-  margin-top: 80px;
+  margin-top: 50px;
   /* margin-bottom: 30px; */
   text-align: center;
   color: black;
@@ -186,10 +180,11 @@
 }
 
 .about-colonic {
-  padding: 20px !important;
-  color: black;
   font-size: 17px;
-  text-align: justify;
+  text-align: left;
+  min-height: 80vh;
+  /* vertical-align: middle !important; */
+  padding: 10% 20px;
 }
 
 .recommendations-b {
@@ -246,4 +241,15 @@
 
 .what-is-colonic {
   margin: 15px;
+}
+
+.white-bckgrnd-about {
+  /* border: 1px solid black; */
+  margin: 40px;
+  background-color: white;
+}
+
+.first-section-about {
+  margin-top: 100px;
+  height: 70vh;
 }
