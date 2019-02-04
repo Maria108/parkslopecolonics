@@ -6,7 +6,7 @@ import { Row, Col, Grid } from 'react-bootstrap'
 const Benefits = () => (
   <Row className="first-section-about">
     <Col xs={12} md={6}>
-      <p className="how-you-know">GRAVITY METHOD COLONICS</p>
+      <p className="gravity-method-header">GRAVITY METHOD COLONICS</p>
       <p className="about-colonic">
         Colonic is a <b>thorough cleansing</b> of the colon (large intestine),
         using only warm purified water. During the treatment there is a
