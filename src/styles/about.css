@@ -61,6 +61,15 @@
   /* margin-top: 70px; */
 }
 
+@media (max-width: 750px) {
+  .main-div-colon {
+    /* padding-bottom: 100px; */
+    height: auto;
+    min-height: 40vh;
+    /* margin-top: 70px; */
+  }
+}
+
 .opacity-div {
   /* height: auto; */
   background-color: #ffffff60;
@@ -119,6 +128,16 @@
   text-align: center;
   color: black;
   font-size: 30px;
+}
+
+@media (max-width: 750px) {
+  .how-you-know {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  }
 }
 
 .myth {
@@ -187,6 +206,17 @@
   padding: 10% 20px;
 }
 
+@media (max-width: 750px) {
+  .about-colonic {
+    font-size: 13px;
+    text-align: left;
+    /* height: auto; */
+    min-height: auto;
+    /* vertical-align: middle !important; */
+    padding: 10px 10px;
+  }
+}
+
 .recommendations-b {
   padding-left: 20px;
   padding-right: 20px;
@@ -252,4 +282,11 @@
 .first-section-about {
   margin-top: 100px;
   height: 70vh;
+}
+
+@media (max-width: 750px) {
+  .first-section-about {
+    margin-top: 0;
+    height: 60vh;
+  }
 }
