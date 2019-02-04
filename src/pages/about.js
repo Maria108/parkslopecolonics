@@ -23,9 +23,9 @@ import {
 const About = () => (
   <Layout>
     <SEO title="about" />
-    <Benefits />
-    <div className="about-two">
-      <Grid>
+    <Grid>
+      <Benefits />
+      <div className="about-two">
         <Row>
           <Col xs={12} md={12}>
             <div className="how-you-know">
@@ -128,8 +128,8 @@ const About = () => (
             </div>
           </Col>
         </Row>
-      </Grid>
-    </div>
+      </div>
+    </Grid>
     <Prepare />
   </Layout>
 )
