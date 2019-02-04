@@ -23,12 +23,7 @@ import {
 const About = () => (
   <Layout>
     <SEO title="about" />
-    <Grid>
-      <Col xs={12} md={12} className="how-you-know">
-        <p>GRAVITY METHOD COLONICS</p>
-      </Col>
-      <Benefits />
-    </Grid>
+    <Benefits />
     <div className="about-two">
       <Grid>
         <Row>
@@ -129,11 +124,7 @@ const About = () => (
                 <FaRegDizzy />
               </div>
               <p className="myth">HEADACHE</p>
-              <p className="about-myth">
-                Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah
-                blah blah Blah blah blah Blah blah blah Blah blah blah Blah Blah
-                blah blah
-              </p>
+              <p className="about-myth" />
             </div>
           </Col>
         </Row>
