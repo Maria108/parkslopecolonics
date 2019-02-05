@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Prepare from '../components/prepare'
+import Ready from '../components/ready'
 import Benefits from '../components/benefits'
 
 import Layout from '../components/layout'
@@ -127,7 +128,7 @@ const About = () => (
         </Col>
       </Row>
     </Grid>
-    <Prepare />
+    <Ready />
   </Layout>
 )
 

@@ -26,7 +26,7 @@
   text-align: justify;
   color: #000;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .info-benefit {
@@ -52,6 +52,13 @@
   font-size: 25px;
 }
 
+.main-div-colon-ananas {
+  /* padding-bottom: 100px; */
+  /* height: auto; */
+  height: auto;
+  /* margin: 10px; */
+  /* margin-top: 70px; */
+}
 
 
 .main-div-colon {
@@ -111,9 +118,10 @@
 }
 
 .picture-about {
-  background-image: url('../images/water.jpg');
+  background-image: url('../images/ananas.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 70vh;
 }
 
 .picture-include {
@@ -133,7 +141,7 @@
 }
 
 .gravity-method-header {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* margin-bottom: 30px; */
   text-align: center;
   color: black;
@@ -228,10 +236,11 @@
 
 .about-colonic {
   font-size: 17px;
-  text-align: left;
-  min-height: 80vh;
+  text-align: justify;
+  text-indent: 35px;
+  /* min-height: 80vh; */
   /* vertical-align: middle !important; */
-  padding: 10px 20px 0px 20px;
+  padding: 10px 15px 0px 15px;
 }
 
 @media (max-width: 800px) {
@@ -304,13 +313,13 @@
 
 .white-bckgrnd-about {
   /* border: 1px solid black; */
-  margin: 40px;
+  /* margin: 40px; */
   background-color: white;
 }
 
 .first-section-about {
   margin-top: 100px;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 @media (max-width: 700px) {
@@ -326,3 +335,11 @@
     height: 30vh;
   }
 } */
+
+.ready-div {
+  background-image: url('../images/lenacube.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%
+}
