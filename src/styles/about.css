@@ -71,14 +71,14 @@
   }
 }
 
-@media (max-width:1370px) and (min-width:701px) {
+/* @media (max-width:1370px) and (min-width:701px) {
   .main-div-colon {
-    /* padding-bottom: 100px; */
-    /* height: auto; */
+    padding-bottom: 100px;
+    height: auto;
     min-height: 30vh;
-    /* margin-top: 70px; */
+    margin-top: 70px;
   }
-}
+} */
 
 ​ .opacity-div {
   /* height: auto; */
@@ -320,9 +320,9 @@
   }
 }
 
-@media (max-width:1370px) and (min-width:701px) {
+/* @media (max-width:1370px) and (min-width:701px) {
   .first-section-about {
     margin-top: 100px;
     height: 30vh;
   }
-}
+} */
