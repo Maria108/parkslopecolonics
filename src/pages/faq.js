@@ -5,15 +5,18 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import '../styles/faq.css'
-import { Grid } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 const Faq = () => (
   <Layout>
     <SEO title="faq" />
     <Grid>
-      <div className="main-div faq">
-        <p className="coming">coming soon...</p>
-      </div>
+      <Row>
+        <Col xs={2} md={3}>
+          <p className="coming">coming soon...</p>
+        </Col>
+        <Col xs={10} md={9} className="main-div faq" />
+      </Row>
     </Grid>
   </Layout>
 )

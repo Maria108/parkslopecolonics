@@ -1,14 +1,15 @@
 .faq {
   margin-top: 100px;
   text-align: center;
-  background-image: url('../images/wc.jpeg');
-  background-size: cover;
+  background-image: url('../images/faq.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
   height: auto;
   min-height: 90vh;
 }
 
 .coming {
-  padding-top: 10%;
-  font-size: 70px;
-  color: aliceblue;
+  margin-top: 100px;
+  font-size: 20px;
+  color: black;
 }
