@@ -5,8 +5,8 @@ import '../styles/contact.css'
 const API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY
 
 const mapStyles = {
-  width: '90%',
-  height: '70%',
+  width: '95%',
+  height: '100%',
 }
 
 export class MapContainer extends Component {
@@ -34,7 +34,7 @@ export class MapContainer extends Component {
 
   render() {
     return (
-      <div style={{ height: '70vh', width: '100%' }}>
+      <div style={{ height: '100%', width: '100%' }}>
         <Map
           google={this.props.google}
           zoom={14}
