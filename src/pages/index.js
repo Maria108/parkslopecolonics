@@ -23,15 +23,17 @@ const IndexPage = () => (
       keywords={[`colonic`, `brooklyn`, `newyork`, `colonics`, `park slope`]}
     />
     <Grid>
-      <Col className="first-section-home">
-        <Row>
-          <Col xs={6} md={7}>
-            <div className="on-top">
-              <p>Lighter & Brighter with Park Slope Colonics</p>
-            </div>
-          </Col>
-        </Row>
-      </Col>
+      <Row>
+        <Col xs={12} md={12} className="first-section-home">
+          <Row>
+            <Col xs={6} md={7}>
+              <div className="on-top">
+                <p>Lighter & Brighter with Park Slope Colonics</p>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
     </Grid>
     <div className="second-section">
       <SecondSection />
