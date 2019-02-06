@@ -12,7 +12,7 @@ const Benefits = () => (
           Colonic is a <b>thorough cleansing</b> of the colon (large intestine),
           using only warm purified water. During the treatment there is a
           continuous inflow and outflow of water that doesn’t allow pressure to
-          build up, witch makes it for a comfortable and safe session. The
+          build up, which makes it for a comfortable and safe session. The
           therapist is with you during the whole session, doing firm abdominal
           massage to assure gentle and effective release. It usually takes 45
           mins to an hour to empty out a colon
