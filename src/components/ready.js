@@ -8,12 +8,12 @@ import { IoMdClose } from 'react-icons/io'
 
 const Ready = () => (
   <Grid>
-    <Row>
+    <Row className="prepare-div">
       <Col xs={6} md={5}>
         <div className="ready-div" />
       </Col>
       <Col xs={12} md={7}>
-        <div className="white-bckgrnd-about">
+        <div>
           <Row>
             <Col xs={12} md={12}>
               <div className="about-colon">
