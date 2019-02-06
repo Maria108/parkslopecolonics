@@ -1,5 +1,5 @@
 .faq {
-  margin-top: 100px;
+  margin-top: 20px;
   text-align: center;
   background-image: url('../images/faq.jpeg');
   background-size: contain;
@@ -9,7 +9,7 @@
 }
 
 .coming {
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 20px;
   color: black;
 }
