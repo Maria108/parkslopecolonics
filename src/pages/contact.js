@@ -16,23 +16,30 @@ const Contact = () => (
       <div className="contacts-main">
         <Row>
           <Col xs={12} md={6}>
-            <div className="contact-info">
-              <h1>Park Slope Colonics</h1>
-              <p>
-                <FaPhone /> 646-385-9985 text or call
-              </p>
-              <p>
-                <FaRegEnvelope /> parkslopecolonics@gmail.com
-              </p>
-              <p>
-                <FaRegClock /> Fridays 8:00AM - 7:00PM
-              </p>
-            </div>
+            <Col xs={12} md={12}>
+              <div className="contact-info">
+                <p className="contact-header">Contacts</p>
+                <p>
+                  <FaPhone /> 646-385-9985 text or call
+                </p>
+                <p>
+                  <FaRegEnvelope /> parkslopecolonics@gmail.com
+                </p>
+                <p>
+                  <FaRegClock /> Wednesdays 8:00AM - 7:00PM
+                </p>
+                <p className="work-hours">Thursday 8:00AM - 7:00PM</p>
+                <p className="work-hours">Friday 8:00AM - 7:00PM</p>
+              </div>
+            </Col>
+            <Col xs={12} md={12}>
+              <div className="my-maps">
+                <MapContainer />
+              </div>
+            </Col>
           </Col>
           <Col xs={12} md={6}>
-            <div className="my-maps">
-              <MapContainer />
-            </div>
+            <div className="contact-picture" />
           </Col>
         </Row>
       </div>
