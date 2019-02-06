@@ -124,6 +124,15 @@
   min-height: 70vh;
 }
 
+@media (max-width: 760px) {
+  .picture-about {
+    background-image: url('../images/ananas.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+  }
+}
+
 .picture-include {
   background-image: url('../images/include.jpeg');
   background-repeat: no-repeat;
@@ -318,7 +327,7 @@
 }
 
 .first-section-about {
-  margin-top: 100px;
+  margin-top: 20px;
   /* height: 70vh; */
 }
 
@@ -341,5 +350,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100%;
-  min-height: 100%
+  min-height: 100%;
+}
+
+@media (max-width: 700px) {
+  .ready-div {
+    background-image: url('../images/lenacube.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 40vh;
+  }
 }
