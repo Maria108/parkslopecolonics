@@ -313,17 +313,17 @@
 }
 
 .include {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .what-is-colonic {
   margin: 15px;
 }
 
-.white-bckgrnd-about {
+.prepare-div {
   /* border: 1px solid black; */
-  /* margin: 40px; */
-  background-color: white;
+  margin-bottom: 20px;
+
 }
 
 .first-section-about {
