@@ -11,11 +11,11 @@ const Faq = () => (
   <Layout>
     <SEO title="faq" />
     <Grid>
-      <Row>
+      <Row className="div-about-faq">
         <Col xs={2} md={3}>
           <p className="coming">coming soon...</p>
         </Col>
-        <Col xs={10} md={9} className="main-div faq" />
+        <Col xs={10} md={9} className="faq" />
       </Row>
     </Grid>
   </Layout>

@@ -1,11 +1,35 @@
-.faq {
+.div-about-faq {
   margin-top: 20px;
+  min-height: 80vh;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+  .div-about-faq {
+    margin-top: 20px;
+    min-height: 50vh;
+    margin-bottom: 20px;
+  }
+}
+
+.faq {
   text-align: center;
   background-image: url('../images/faq.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
   height: auto;
-  min-height: 90vh;
+}
+
+@media (max-width: 769px) {
+  .faq {
+    margin-top: 10px;
+    text-align: center;
+    background-image: url('../images/faq.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 50vh;
+  }
 }
 
 .coming {
