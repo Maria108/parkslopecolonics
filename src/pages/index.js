@@ -13,8 +13,8 @@ import Responsive from '../components/slide'
 
 import { FaRegCheckSquare } from 'react-icons/fa'
 
+import '../styles/bootstrap.scss'
 import '../styles/home.css'
-import 'bootstrap/dist/css/bootstrap.css'
 
 const IndexPage = () => (
   <Layout>
@@ -44,22 +44,25 @@ const IndexPage = () => (
           <p className="about-me">Meet Your Therapist</p>
         </Col>
       </Row>
-      <div className="div-about-lena-home">
-        <Row>
-          <Col xs={6} md={5} />
-          <Col xs={6} md={7}>
-            <div className="bio">
-              <p>
-                I am Lena Bykova, a certified colon hydrotherapist, certified
-                holistic nutritionist and the owner of Park Slope Colonics.
-                Using gravity method as my preffered, I have been performing
-                over a 1000 colonics each year since 2014 and got nothing but
-                positive feedback. Happy to help!
-              </p>
-            </div>
-          </Col>
-        </Row>
-      </div>
+      <Row>
+        <Col xs={12} md={12} className="div-about-lena-home">
+          <Row>
+            <Col xs={6} md={5} />
+            <Col xs={6} md={7}>
+              <div className="bio">
+                <p>
+                  I am Lena Bykova, a certified colon hydrotherapist, certified
+                  holistic nutritionist and the owner of Park Slope Colonics.
+                  Using gravity method as my preffered, I have been performing
+                  over a 1000 colonics each year since 2014 and got nothing but
+                  positive feedback. Happy to help!
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        <Col xs={12} md={12} className="div-about-lena-two" />
+      </Row>
     </Grid>
     <div className="testimonials-section">
       <Testimonials />
