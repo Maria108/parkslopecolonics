@@ -18,7 +18,7 @@ a:focus {
 
 .navbar {
   position: relative;
-  /* min-height: 100px; */
+  margin-left: auto !important;
   margin-bottom: 0;
   border-radius: 0;
   /* font-family: 'ZCOOL XiaoWei', serif; */
@@ -63,11 +63,11 @@ a:focus {
 
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .navbar-brand {
     font-size: 1.5rem !important;
   }
-}
+} */
 
 .navbar-right {
   margin-top: 30px !important;

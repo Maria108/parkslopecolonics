@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 
 import { Grid } from 'react-bootstrap'
 
-import '../styles/menu.css'
+// import '../styles/bootstrap.scss'
 
 import React from 'react'
 import {
@@ -13,6 +13,8 @@ import {
   Nav,
   NavItem,
 } from 'reactstrap'
+
+import '../styles/menu.css'
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -31,7 +33,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <Grid>
-        <Navbar color="white" light expand="md">
+        <Navbar color="light" light expand="md">
           <NavbarBrand href="/">Park Slope Colonics</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -45,7 +47,6 @@ export default class Example extends React.Component {
               <NavItem>
                 <Link to="/faq/">FAQ AND PRICING</Link>
               </NavItem>
-
               <NavItem>
                 <Link to="/contact/">CONTACT</Link>
               </NavItem>
