@@ -16,10 +16,10 @@ const Footer = () => (
               <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
             </p>
             <p>
-              <FaPhone /> <a href="tel:+16463859985">646-385-99852</a>
+              <FaPhone /> <a href="tel:+16463859985">646-385-9985</a>
             </p>
             <p>
-              <FaRegClock /> Fridays 8:00AM - 7:00PM
+              <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
             </p>
           </div>
         </Col>
