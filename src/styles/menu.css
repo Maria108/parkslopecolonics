@@ -21,9 +21,6 @@ a:focus {
   /* margin-left: auto !important; */
   margin-bottom: 0;
   border-radius: 0;
-  /* font-family: 'ZCOOL XiaoWei', serif; */
-  /* font-family: 'Play', sans-serif; */
-  /* font-family: 'Staatliches'; */
   font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -42,7 +39,6 @@ a:focus {
     position: fixed !important;
     top: 0;
     z-index: 1;
-    margin-left: auto !important;
   }
 } */
 
