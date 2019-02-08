@@ -16,7 +16,7 @@ const Footer = () => (
               <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
             </p>
             <p>
-              <FaPhone /> 646-385-9985
+              <FaPhone /> <a href="tel:+16463859985">646-385-99852</a>
             </p>
             <p>
               <FaRegClock /> Fridays 8:00AM - 7:00PM

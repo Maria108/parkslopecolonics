@@ -24,7 +24,10 @@ const Contact = () => (
                   or call
                 </p>
                 <p>
-                  <FaRegEnvelope /> parkslopecolonics@gmail.com
+                  <FaRegEnvelope />{' '}
+                  <a href="mailto:parkslopecolonics@gmail.com">
+                    parkslopecolonics@gmail.com
+                  </a>
                 </p>
                 <p>
                   <FaRegClock /> Wednesdays 8:00AM - 7:00PM
