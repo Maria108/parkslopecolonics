@@ -20,7 +20,8 @@ const Contact = () => (
               <div className="contact-info">
                 <p className="contact-header">Contacts</p>
                 <p>
-                  <FaPhone /> 646-385-9985 text or call
+                  <FaPhone /> <a href="tel:+16463859985">646-385-99852</a> text
+                  or call
                 </p>
                 <p>
                   <FaRegEnvelope /> parkslopecolonics@gmail.com
