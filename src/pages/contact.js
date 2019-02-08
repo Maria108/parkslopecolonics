@@ -20,7 +20,7 @@ const Contact = () => (
               <div className="contact-info">
                 <p className="contact-header">Contacts</p>
                 <p>
-                  <FaPhone /> <a href="tel:+16463859985">646-385-99852</a> text
+                  <FaPhone /> <a href="tel:+16463859985">646-385-9985</a> text
                   or call
                 </p>
                 <p>
@@ -30,10 +30,8 @@ const Contact = () => (
                   </a>
                 </p>
                 <p>
-                  <FaRegClock /> Wednesdays 8:00AM - 7:00PM
+                  <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
                 </p>
-                <p className="work-hours">Thursday 8:00AM - 7:00PM</p>
-                <p className="work-hours">Friday 8:00AM - 7:00PM</p>
               </div>
             </Col>
             <Col xs={12} md={12}>
