@@ -1,5 +1,6 @@
 import React from 'react'
 import MapContainer from '../components/map.js'
+import Maps from '../components/newmap.js'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
