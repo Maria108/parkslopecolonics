@@ -10,6 +10,8 @@ import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
 import TestimonialsNew from '../components/newtestimonials'
 import Responsive from '../components/slide'
+import Carouselreact from '../components/carousel'
+import Gallery from '../components/reactcar'
 
 import { FaRegCheckSquare } from 'react-icons/fa'
 
@@ -63,10 +65,9 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={12} className="div-about-lena-two" />
       </Row>
-    </Grid>
-    <div className="testimonials-section">
       <Testimonials />
-    </div>
+    </Grid>
+    <div className="testimonials-section" />
   </Layout>
 )
 
