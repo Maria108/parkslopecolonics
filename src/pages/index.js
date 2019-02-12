@@ -55,7 +55,7 @@ const IndexPage = () => (
                 <p>
                   I am Lena Bykova, a certified colon hydrotherapist, certified
                   holistic nutritionist and the owner of Park Slope Colonics.
-                  Using gravity method as my preffered, I have been performing
+                  Using gravity method as my preferred, I have been performing
                   over a 1000 colonics each year since 2014 and got nothing but
                   positive feedback. Happy to help!
                 </p>
