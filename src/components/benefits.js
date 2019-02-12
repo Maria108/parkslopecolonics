@@ -16,6 +16,16 @@ const Benefits = () => (
         massage to assure gentle and effective release. It usually takes 45 mins
         to an hour to empty out a colon
       </p>
+      <div className="div-book-apt-benefit">
+        <a
+          className="book-apt"
+          target="_blank"
+          href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
+          rel="nofollow"
+        >
+          BOOK AN APPOINTMENT
+        </a>
+      </div>
     </Col>
     <Col xs={6} md={7}>
       <div className="main-div-colon-ananas picture-about" />

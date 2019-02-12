@@ -361,3 +361,15 @@
     min-height: 40vh;
   }
 }
+
+.div-book-apt-benefit {
+  text-align: center;
+  margin-top: 80px;
+}
+
+@media (max-width: 700px) {
+  .div-book-apt-benefit {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
