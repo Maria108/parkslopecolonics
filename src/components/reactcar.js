@@ -28,7 +28,7 @@ const Gallery = () => {
             definitely recommend this establishment if you are looking for
             improvements in you overall health and well being-
           </p>
-          <p className="testimon">-Tiffany W-</p>
+          <p className="review-author">-Tiffany W-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -55,7 +55,7 @@ const Gallery = () => {
             system my immune system is becoming stronger. Thanks Elena for all
             your help-
           </p>
-          <p className="testimon">-Maria A-</p>
+          <p className="review-author">-Maria A-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -72,7 +72,7 @@ const Gallery = () => {
             very comfortable for me and I feel like I'm in good hands. Highly
             recommend!-
           </p>
-          <p className="testimon">-Anna S-</p>
+          <p className="review-author">-Anna S-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -90,7 +90,7 @@ const Gallery = () => {
             patient and kind and makes the whole process a favorable experience.
             I highly recommend having a Colonic with Elena!-
           </p>
-          <p className="testimon">-Athena T-</p>
+          <p className="review-author">-Athena T-</p>
         </Col>
       </Row>
       <Row>
@@ -112,7 +112,7 @@ const Gallery = () => {
             definitely recommend this establishment if you are looking for
             improvements in you overall health and well being-
           </p>
-          <p className="testimon">-Tiffany W-</p>
+          <p className="review-author">-Tiffany W-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -139,7 +139,7 @@ const Gallery = () => {
             system my immune system is becoming stronger. Thanks Elena for all
             your help-
           </p>
-          <p className="testimon">-Maria A-</p>
+          <p className="review-author">-Maria A-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -156,7 +156,7 @@ const Gallery = () => {
             very comfortable for me and I feel like I'm in good hands. Highly
             recommend!-
           </p>
-          <p className="testimon">-Anna S-</p>
+          <p className="review-author">-Anna S-</p>
         </Col>
         <Col xs={3} md={3}>
           <p className="rating">
@@ -174,7 +174,7 @@ const Gallery = () => {
             patient and kind and makes the whole process a favorable experience.
             I highly recommend having a Colonic with Elena!-
           </p>
-          <p className="testimon">-Athena T-</p>
+          <p className="review-author">-Athena T-</p>
         </Col>
       </Row>
     </AliceCarousel>
