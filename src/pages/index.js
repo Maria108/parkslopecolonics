@@ -53,11 +53,12 @@ const IndexPage = () => (
             <Col xs={6} md={7}>
               <div className="bio">
                 <p>
-                  I am Lena Bykova, a certified colon hydrotherapist, certified
-                  holistic nutritionist and the owner of Park Slope Colonics.
-                  Using gravity method as my preferred, I have been performing
-                  over a 1000 colonics each year since 2014 and got nothing but
-                  positive feedback. Happy to help!
+                  Hi! My name is Lena Bykova. I am a certified colon
+                  hydrotherapist, certified holistic nutritionist and the owner
+                  of Park Slope Colonics. Using gravity method as my preferred,
+                  I have performed over a 1000 colonics each year since 2014 and
+                  have had nothing but positive feedback from clients. I am
+                  passionate about this work and look forward to helping you!
                 </p>
               </div>
             </Col>
