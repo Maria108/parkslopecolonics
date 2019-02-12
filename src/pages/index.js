@@ -1,19 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Row, Col, Grid } from 'react-bootstrap'
 
-import Oldlinks from '../components/oldlinks'
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
-import TestimonialsNew from '../components/newtestimonials'
-import Responsive from '../components/slide'
-import Carouselreact from '../components/carousel'
 import Gallery from '../components/reactcar'
-
-import { FaRegCheckSquare } from 'react-icons/fa'
 
 import '../styles/bootstrap.scss'
 import '../styles/home.css'
@@ -29,25 +22,25 @@ const IndexPage = () => (
         <Col xs={12} md={12} className="first-section-home">
           <Row>
             <Col xs={6} md={7}>
-              <div className="on-top">
-                <p>Lighter & Brighter with Park Slope Colonics</p>
+              <div className="first-section-home-slogan">
+                <p className="lighter-brighter">
+                  Lighter & Brighter with Park Slope Colonics
+                </p>
               </div>
             </Col>
           </Row>
         </Col>
       </Row>
-    </Grid>
-    <div className="second-section">
+
       <SecondSection />
-    </div>
-    <Grid>
+
       <Row>
         <Col xs={12} md={12}>
-          <p className="about-me">Meet Your Therapist</p>
+          <p className="third-section-home-header">Meet Your Therapist</p>
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={12} className="div-about-lena-home">
+        <Col xs={12} md={12} className="third-section-home-bio">
           <Row>
             <Col xs={6} md={5} />
             <Col xs={6} md={7}>
@@ -64,11 +57,10 @@ const IndexPage = () => (
             </Col>
           </Row>
         </Col>
-        <Col xs={12} md={12} className="div-about-lena-two" />
+        <Col xs={12} md={12} className="third-section-home-lena" />
       </Row>
       <Testimonials />
     </Grid>
-    <div className="testimonials-section" />
   </Layout>
 )
 

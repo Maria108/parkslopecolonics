@@ -1,73 +1,3 @@
-.div-about-lena-home {
-  /* padding-bottom: 100px; */
-  height: auto;
-  min-height: 90vh;
-  background-image: url('../images/lenabio.jpeg');
-  background-repeat: no-repeat;
-  background-size: 70%;
-  /* width: 60% !important; */
-  background-position: left;
-
-}
-
-@media (max-width: 770px) {
-  .div-about-lena-home {
-    padding-bottom: 10;
-    height: auto;
-    min-height: 0;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: 0;
-    background-position: center;
-  }
-}
-
-.div-about-lena-two {
-  display: none;
-  padding-bottom: 10px;
-  height: auto;
-  min-height: 55vh;
-  background-image: url('../images/lenabio.jpeg');
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: center;
-}
-
-@media (max-width: 770px) {
-  .div-about-lena-two {
-    display: block;
-  }
-}
-
-.bio {
-  text-align: justify;
-  font-size: 20px;
-  background-color: #ffffffde;
-  margin-top: 180px;
-  margin-bottom: 10px;
-  padding: 20px 20px 5px 20px;
-  box-shadow: 0px 0px 10px -3px #000;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
-  font-family: 'ZCOOL XiaoWei', serif;
-  color: black;
-  /* line-height: 20px; */
-}
-
-@media (max-width: 770px) {
-  .bio {
-    text-align: justify;
-    font-size: 14px;
-    background-color: #ffffffde;
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding: 10px 10px 5px 10px;
-    box-shadow: 0px 0px 10px -3px #000;
-    font-family: 'ZCOOL XiaoWei', serif;
-    color: black;
-    /* line-height: 20px; */
-  }
-}
-
 .first-section-home {
   padding-bottom: 20px;
   height: auto;
@@ -92,14 +22,40 @@
   }
 }
 
-/* .pic-one {
-  background-image: url('../images/lena.jpg');
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: right;
-} */
+.first-section-home-slogan {
+  text-align: left;
+  font-size: 30px;
+  background-color: #ffffffde;
+  margin-top: 200px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px -3px #000;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+}
 
-.what-will-get {
+@media (max-width: 770px) {
+  .first-section-home-slogan {
+    text-align: left;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+  }
+}
+
+.lighter-brighter {
+  margin: 0;
+}
+
+.second-section-home {
+  margin-top: 20px;
+}
+
+.second-section-home-header {
   font-size: 30px;
   border-top: 1px solid black;
   padding-top: 15px;
@@ -107,7 +63,7 @@
 }
 
 @media (max-width: 770px) {
-  .what-will-get {
+  .second-section-home-header {
     font-size: 17px;
     border-top: 1px solid black;
     padding-top: 5px;
@@ -116,73 +72,49 @@
   }
 }
 
-.main-info {
-  font-family: 'ZCOOL XiaoWei', serif;
+.second-section-home-dscrpn {
+  padding-left: 20px;
+  padding-right: 20px;
   color: black;
-  text-align: right;
-  font-size: 40px;
-  background-color: #ffffff60;
-  padding: 1em;
-  margin-top: 100px;
-  border-radius: 1em;
-  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.384);
-}
-
-.page-link {
-  height: 400px;
-  background-image: url('../images/oneside.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  margin-top: 40px;
-  padding-top: 45%;
-  font-size: 30px;
+  font-size: 17px;
   text-align: center;
 }
 
-.img-page-link {
-  color: white !important;
+.second-section-home-icon {
+  text-align: center;
+  font-size: 50px;
+  color: #2f6295;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
-.on-top {
-  text-align: left;
-  font-size: 30px;
-  background-color: #ffffffde;
-  margin-top: 200px;
-  /* margin-bottom: 35px; */
-  padding: 20px;
-  box-shadow: 0px 0px 10px -3px #000;
-  font-family: 'Great Vibes', cursive;
+.second-section-home-points-header {
+  text-align: center;
   color: black;
-  /* line-height: 20px; */
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
-@media (max-width: 770px) {
-  .on-top {
-    text-align: left;
-    font-size: 20px;
-    background-color: white;
-    margin-top: 0;
-    margin-bottom: 15px;
-    /* margin-bottom: 35px; */
-    padding: 0;
-    box-shadow: none;
-    font-family: 'Great Vibes', cursive;
-    color: black;
-  }
-}
-
-
-
-
-
-.points {
+.second-section-home-points {
   font-size: 17px;
   color: black;
   padding-left: 50px;
   margin-bottom: 10px;
 }
 
-.about-me {
+.second-section-home-conclusion {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  color: black;
+  font-size: 17px;
+  margin-bottom: 30px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.third-section-home-header {
   font-size: 30px;
   border-top: 1px solid black;
   padding-top: 15px;
@@ -190,13 +122,87 @@
   margin-bottom: 0 !important;
 }
 
-.what-they-say {
+.third-section-home-bio {
+  height: auto;
+  min-height: 90vh;
+  background-image: url('../images/lenabio.jpeg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: left;
+}
+
+@media (max-width: 770px) {
+  .third-section-home-bio {
+    padding-bottom: 10;
+    height: auto;
+    min-height: 0;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 0;
+    background-position: center;
+  }
+}
+
+.bio {
+  text-align: justify;
+  font-size: 20px;
+  background-color: #ffffffde;
+  margin-top: 180px;
+  margin-bottom: 10px;
+  padding: 20px 20px 5px 20px;
+  box-shadow: 0px 0px 10px -3px #000;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: black;
+}
+
+@media (max-width: 770px) {
+  .bio {
+    text-align: justify;
+    font-size: 14px;
+    background-color: #ffffffde;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 10px 10px 5px 10px;
+    box-shadow: 0px 0px 10px -3px #000;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: black;
+  }
+}
+
+.third-section-home-lena {
+  display: none;
+  padding-bottom: 10px;
+  height: auto;
+  min-height: 55vh;
+  background-image: url('../images/lenabio.jpeg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+@media (max-width: 770px) {
+  .third-section-home-lena {
+    display: block;
+  }
+}
+
+.fourth-section-home-header {
   font-size: 30px;
   border-top: 1px solid black;
   padding-top: 15px;
   text-align: center;
 }
 
-.second-section {
-  margin-top: 20px;
+.rating {
+  color: gold;
+}
+
+.review {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.review-author {
+  font-size: 15px;
+  text-align: right;
 }

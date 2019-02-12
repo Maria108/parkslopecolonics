@@ -7,101 +7,97 @@ import { FaChild, FaFeatherAlt, FaGem } from 'react-icons/fa'
 import { IoMdCheckmark } from 'react-icons/io'
 
 const SecondSection = () => (
-  <Grid>
+  <div className="second-section-home">
     <Row>
       <Col xs={12} md={12}>
-        <p className="what-will-get">What Will You Get Out Of The Treatment</p>
-        <p className="in-the-words">
+        <p className="second-section-home-header">
+          What Will You Get Out Of The Treatment
+        </p>
+        <p className="second-section-home-dscrpn">
           In the words of my clients they have repeatedly shared the following…
         </p>
       </Col>
     </Row>
     <Row>
       <Col xs={12} md={4}>
-        <div className="image-about-about">
-          <div className="poop-icon">
-            <FaFeatherAlt />
-          </div>
-          <p className="myth">FEEL</p>
-          <div>
-            <p className="points">
-              <IoMdCheckmark /> Lighter and Brighter!
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Eliminate bloating
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Reduce inflammation
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Enhance elimination
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Improve digestion
-            </p>
-          </div>
+        <div className="second-section-home-icon">
+          <FaFeatherAlt />
+        </div>
+        <p className="second-section-home-points-header">FEEL</p>
+        <div>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Lighter and Brighter!
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Eliminate bloating
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Reduce inflammation
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Enhance elimination
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Improve digestion
+          </p>
         </div>
       </Col>
       <Col xs={12} md={4}>
-        <div className="image-about-about">
-          <div className="poop-icon">
-            <FaGem />
-          </div>
-          <p className="myth">LOOK</p>
-          <div>
-            <p className="points">
-              <IoMdCheckmark /> Radiant!
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Loose extra inches
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Get clear glowing skin
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Decrease puffiness
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Maintain youthfulness
-            </p>
-          </div>
+        <div className="second-section-home-icon">
+          <FaGem />
+        </div>
+        <p className="second-section-home-points-header">LOOK</p>
+        <div>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Radiant!
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Loose extra inches
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Get clear glowing skin
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Decrease puffiness
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Maintain youthfulness
+          </p>
         </div>
       </Col>
       <Col xs={12} md={4}>
-        <div className="image-about-about">
-          <div className="poop-icon">
-            <FaChild />
-          </div>
-          <p className="myth">EXPERIENCE</p>
-          <div>
-            <p className="points">
-              <IoMdCheckmark /> Function at your optimum level
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Think clearly
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Reduce anxiety
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Absorb nutrients better
-            </p>
-            <p className="points">
-              <IoMdCheckmark /> Boost your immune system
-            </p>
-          </div>
+        <div className="second-section-home-icon">
+          <FaChild />
+        </div>
+        <p className="second-section-home-points-header">EXPERIENCE</p>
+        <div>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Function at your optimum level
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Think clearly
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Reduce anxiety
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Absorb nutrients better
+          </p>
+          <p className="second-section-home-points">
+            <IoMdCheckmark /> Boost your immune system
+          </p>
         </div>
       </Col>
     </Row>
     <Row>
       <Col xs={12} md={12}>
-        <p className="recommendations-b">
+        <p className="second-section-home-conclusion">
           In short, enhance your overall sense of physical & mental wellbeing.
           Most people feel the difference even after one session.
         </p>
       </Col>
     </Row>
-  </Grid>
+  </div>
 )
 
 export default SecondSection

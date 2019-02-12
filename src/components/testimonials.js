@@ -1,16 +1,15 @@
 import React from 'react'
 
 import '../styles/home.css'
-import '../styles/testimonials.css'
-import { Row, Col, Grid } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import { IoMdStar } from 'react-icons/io'
 
 const Testimonials = () => (
-  <Grid>
+  <div>
     <Row>
       <Col xs={12} md={12}>
-        <p className="what-they-say">What Clients Are Saying</p>
+        <p className="fourth-section-home-header">What Clients Are Saying</p>
       </Col>
     </Row>
     <Row>
@@ -32,7 +31,7 @@ const Testimonials = () => (
           this establishment if you are looking for improvements in you overall
           health and well being-
         </p>
-        <p className="testimon">-Tiffany W-</p>
+        <p className="review-author">-Tiffany W-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -58,7 +57,7 @@ const Testimonials = () => (
           I am cleaning my digestive system my immune system is becoming
           stronger. Thanks Elena for all your help-
         </p>
-        <p className="testimon">-Maria A-</p>
+        <p className="review-author">-Maria A-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -75,7 +74,7 @@ const Testimonials = () => (
           comfortable for me and I feel like I'm in good hands. Highly
           recommend!-
         </p>
-        <p className="testimon">-Anna S-</p>
+        <p className="review-author">-Anna S-</p>
       </Col>
       <Col xs={3} md={3}>
         <p className="rating">
@@ -93,10 +92,10 @@ const Testimonials = () => (
           patient and kind and makes the whole process a favorable experience. I
           highly recommend having a Colonic with Elena!-
         </p>
-        <p className="testimon">-Athena T-</p>
+        <p className="review-author">-Athena T-</p>
       </Col>
     </Row>
-  </Grid>
+  </div>
 )
 
 export default Testimonials
