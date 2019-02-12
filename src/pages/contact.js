@@ -20,17 +20,17 @@ const Contact = () => (
             <Col xs={12} md={12}>
               <div className="contact-info">
                 <p className="contact-header">Contacts</p>
-                <p>
+                <p className="contact-content">
                   <FaPhone /> <a href="tel:+16463859985">646-385-9985</a> text
                   or call
                 </p>
-                <p>
+                <p className="contact-content">
                   <FaRegEnvelope />{' '}
                   <a href="mailto:parkslopecolonics@gmail.com">
                     parkslopecolonics@gmail.com
                   </a>
                 </p>
-                <p>
+                <p className="contact-content">
                   <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
                 </p>
                 <div className="div-book-apt">
