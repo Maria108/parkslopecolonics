@@ -33,6 +33,16 @@ const Contact = () => (
                 <p>
                   <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
                 </p>
+                <div className="div-book-apt">
+                  <a
+                    className="book-apt"
+                    target="_blank"
+                    href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
+                    rel="nofollow"
+                  >
+                    BOOK AN APPOINTMENT
+                  </a>
+                </div>
               </div>
             </Col>
             <Col xs={12} md={12}>

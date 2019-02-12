@@ -71,3 +71,19 @@
   background-size: cover;
   min-height: 100%;
 }
+
+.div-book-apt {
+  margin-top: 25px;
+}
+
+.book-apt {
+  border: 1px black solid;
+  padding: 10px;
+  background-color: white;
+}
+
+.book-apt:hover {
+  text-decoration: none;
+  background-color: #7abc52;
+  color: white !important;
+}
