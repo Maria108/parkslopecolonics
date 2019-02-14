@@ -11,14 +11,14 @@ const Footer = () => (
       <Row>
         <Col xs={6} md={6}>
           <div>
-            <p>Contact</p>
-            <p>
+            <p className="footer-contact">Contact</p>
+            <p className="footer-contact">
               <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
             </p>
-            <p>
+            <p className="footer-contact">
               <FaPhone /> <a href="tel:+16463859985">646-385-9985</a>
             </p>
-            <p>
+            <p className="footer-contact">
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
             </p>
           </div>
@@ -38,23 +38,31 @@ const Footer = () => (
             <p className="let-connect">Let's connect</p>
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" />
-              <p className="message-me">
+              <p>
                 <label>
                   Name{' '}
                   <p>
-                    <input className="input-t-2" type="text" name="name" />
+                    <input
+                      className="footer-input-text"
+                      type="text"
+                      name="name"
+                    />
                   </p>
                 </label>
               </p>
-              <p className="message-me">
+              <p>
                 <label>
                   Email{' '}
                   <p>
-                    <input className="input-t-2" type="email" name="email" />
+                    <input
+                      className="footer-input-text"
+                      type="email"
+                      name="email"
+                    />
                   </p>
                 </label>
               </p>
-              <p className="message-me">
+              <p>
                 <label>
                   Message:{' '}
                   <p>
@@ -62,7 +70,7 @@ const Footer = () => (
                   </p>
                 </label>
               </p>
-              <p className="message-me">
+              <p>
                 <button className="btn-form" type="submit">
                   Send
                 </button>
