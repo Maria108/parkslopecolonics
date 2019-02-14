@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Prepare from '../components/prepare'
 import AboutColonic from '../components/aboutColonic'
@@ -17,7 +16,6 @@ import {
   FaHippo,
   FaRegMehRollingEyes,
   FaRegDizzy,
-  FaRegCheckSquare,
 } from 'react-icons/fa'
 
 const About = () => (
