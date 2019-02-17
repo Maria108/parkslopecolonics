@@ -10,20 +10,10 @@ import AboutColonic from '../components/aboutColonic'
 
 import '../styles/about.css'
 
-import {
-  FaWind,
-  FaToiletPaper,
-  FaBatteryQuarter,
-  FaHippo,
-  FaRegMehRollingEyes,
-  FaRegDizzy,
-} from 'react-icons/fa'
-
 const About = () => (
   <Layout>
     <SEO title="about" />
     <Grid>
-      <AboutColonic />
       <Row>
         <Col xs={12} md={12}>
           <div className="second-section-about">
@@ -33,9 +23,7 @@ const About = () => (
       </Row>
       <Row>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaBatteryQuarter />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">FATIGUE</p>
           <p className="second-section-about-icon-content">
             A lack of essential vitamins in the body can sap your energy, it can
@@ -50,9 +38,7 @@ const About = () => (
           </p>
         </Col>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaWind />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">BLOATING</p>
           <p className="second-section-about-icon-content">
             Colon cleanse is the top remedy to relieve gas and bloating. Colon
@@ -63,9 +49,7 @@ const About = () => (
           </p>
         </Col>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaToiletPaper />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">CONSTIPATION</p>
           <p className="second-section-about-icon-content">
             With time, some unwanted fecal matter and toxic material may
@@ -80,9 +64,7 @@ const About = () => (
       </Row>
       <Row>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaRegMehRollingEyes />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">SKIN ISSUES</p>
           <p className="second-section-about-icon-content">
             Practitioners and devotes of colonic agree, there is no clear and
@@ -93,9 +75,7 @@ const About = () => (
           </p>
         </Col>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaHippo />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">
             FEELING HEAVY/SLUGGISH
           </p>
@@ -108,14 +88,11 @@ const About = () => (
           </p>
         </Col>
         <Col xs={12} md={4}>
-          <div className="second-section-about-icon">
-            <FaRegDizzy />
-          </div>
+          <div className="second-section-about-icon" />
           <p className="second-section-about-icon-header">HEADACHE</p>
           <p className="second-section-about-icon-content" />
         </Col>
       </Row>
-      <Prepare />
     </Grid>
   </Layout>
 )
