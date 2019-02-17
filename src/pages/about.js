@@ -1,13 +1,14 @@
 import React from 'react'
 
-import Prepare from '../components/prepare'
-import AboutColonic from '../components/aboutColonic'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import { Grid, Row, Col } from 'react-bootstrap'
+
+import Prepare from '../components/prepare'
+import AboutColonic from '../components/aboutColonic'
+
 import '../styles/about.css'
-import { Row, Col, Grid } from 'react-bootstrap'
 
 import {
   FaWind,
