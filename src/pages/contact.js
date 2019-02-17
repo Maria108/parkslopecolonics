@@ -1,12 +1,13 @@
 import React from 'react'
-import MapContainer from '../components/map.js'
-import Maps from '../components/newmap.js'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { Grid, Row, Col } from 'react-bootstrap'
+
+import MapContainer from '../components/map.js'
+import Maps from '../components/newmap.js'
 
 import '../styles/contact.css'
-import { Row, Col, Grid } from 'react-bootstrap'
 
 import { FaRegEnvelope, FaPhone, FaRegClock } from 'react-icons/fa'
 
@@ -37,6 +38,7 @@ const Contact = () => (
                   <a
                     className="book-apt"
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
                     rel="nofollow"
                   >

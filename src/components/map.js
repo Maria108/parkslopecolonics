@@ -56,6 +56,7 @@ export class MapContainer extends Component {
               <a
                 href="https://www.google.com/maps/dir//Park+Slope+Colonics,+7th+Street,+Brooklyn,+NY/@40.7136227,-74.0399837,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25bfecdb8bcc7:0x40af216f52f8c20a!2m2!1d-73.9858381!2d40.6708317"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Directions
               </a>
