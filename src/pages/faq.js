@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 import '../styles/faq.css'
-import { Grid, Row, Col } from 'react-bootstrap'
 
 const Faq = () => (
   <Layout>
