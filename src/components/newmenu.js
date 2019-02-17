@@ -45,10 +45,10 @@ export default class Example extends React.Component {
                 <Link to="/about">GRAVITY METHOD COLONICS</Link>
               </NavItem>
               <NavItem>
-                <Link to="/faq/">FAQ AND PRICING</Link>
+                <Link to="/faq">FAQ AND PRICING</Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact/">CONTACT</Link>
+                <Link to="/contact">CONTACT</Link>
               </NavItem>
             </Nav>
           </Collapse>

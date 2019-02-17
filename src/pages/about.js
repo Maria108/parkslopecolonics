@@ -21,7 +21,7 @@ import {
 
 const About = () => (
   <Layout>
-    <SEO title="about" />
+    <SEO title="About" />
     <Grid>
       <AboutColonic />
       <Row>
