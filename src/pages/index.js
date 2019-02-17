@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { Row, Col, Grid } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'

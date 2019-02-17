@@ -1,6 +1,6 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
-import { Row, Col, Grid } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import { IoMdStar } from 'react-icons/io'
 import 'react-alice-carousel/lib/alice-carousel.css'

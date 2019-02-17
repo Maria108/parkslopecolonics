@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../styles/about.css'
-import { Row, Col, Grid } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import { FaChild, FaFeatherAlt, FaGem } from 'react-icons/fa'
 import { IoMdCheckmark } from 'react-icons/io'
