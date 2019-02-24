@@ -112,7 +112,16 @@ const About = () => (
             <FaRegDizzy />
           </div>
           <p className="second-section-about-icon-header">HEADACHE</p>
-          <p className="second-section-about-icon-content" />
+          <p className="second-section-about-icon-content">
+            Headaches and brain fog are very simple indicators that your body is
+            overloaded with toxins. If your headache is not related to tight
+            neck muscles, dehydration or stress, its a good sign its time for
+            colonic. Getting rid of impurities through a detox helps
+            immediately. When your cells aren’t burdened with processed foods,
+            sugars, fats and heavy proteins and they are soaking up nutrient
+            dense foods and getting the nourishment they need and want, you will
+            be amazed how much more clearly your brain can function.
+          </p>
         </Col>
       </Row>
       <Prepare />
