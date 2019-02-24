@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poiret+One'); */
+
 .div-about-faq {
   margin-top: 20px;
   min-height: 80vh;
@@ -14,7 +16,7 @@
 
 .faq {
   text-align: center;
-  background-image: url('../images/faq.jpeg');
+  background-image: url('../images/lenafaq.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
   height: auto;
@@ -24,7 +26,7 @@
   .faq {
     margin-top: 10px;
     text-align: center;
-    background-image: url('../images/faq.jpeg');
+    background-image: url('../images/lenafaq.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     height: auto;
@@ -36,4 +38,15 @@
   margin-top: 20px;
   font-size: 20px;
   color: black;
+}
+
+.cross-text {
+  font-family: 'Poiret One';
+  text-decoration: line-through;
+  color: gray;
+}
+
+.faq-p {
+  font-family: 'Poiret One';
+  font-size: 20px;
 }
