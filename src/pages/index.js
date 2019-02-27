@@ -6,7 +6,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
-import Gallery from '../components/reactcar'
+// import Gallery from '../components/reactcar'
 
 import '../styles/bootstrap.scss'
 import '../styles/home.css'
