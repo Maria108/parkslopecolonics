@@ -12,23 +12,22 @@ const Footer = () => (
         <Col xs={6} md={6}>
           <div>
             <p className="footer-contact">Contact</p>
-            <p className="footer-contact">
+            <div className="footer-contact">
               <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
-            </p>
-            <p className="footer-contact">
+            </div>
+            <div className="footer-contact">
               <FaPhone /> <a href="tel:+16463859985">646-385-9985</a>
-            </p>
-            <p className="footer-contact">
+            </div>
+            <div className="footer-contact">
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
-            </p>
+            </div>
           </div>
           <div className="div-book-apt">
             <a
               className="book-apt"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
-              rel="nofollow"
             >
               BOOK AN APPOINTMENT
             </a>
@@ -39,43 +38,43 @@ const Footer = () => (
             <p className="let-connect">Let's connect</p>
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" />
-              <p>
+              <div>
                 <label>
                   Name{' '}
-                  <p>
+                  <div>
                     <input
                       className="footer-input-text"
                       type="text"
                       name="name"
                     />
-                  </p>
+                  </div>
                 </label>
-              </p>
-              <p>
+              </div>
+              <div>
                 <label>
                   Email{' '}
-                  <p>
+                  <div>
                     <input
                       className="footer-input-text"
                       type="email"
                       name="email"
                     />
-                  </p>
+                  </div>
                 </label>
-              </p>
-              <p>
+              </div>
+              <div>
                 <label>
                   Message:{' '}
-                  <p>
+                  <div>
                     <textarea className="input-message" name="message" />
-                  </p>
+                  </div>
                 </label>
-              </p>
-              <p>
+              </div>
+              <div>
                 <button className="btn-form" type="submit">
                   Send
                 </button>
-              </p>
+              </div>
             </form>
           </div>
         </Col>
