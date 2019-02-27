@@ -25,21 +25,21 @@ const SecondSection = () => (
         </div>
         <p className="second-section-home-points-header">FEEL</p>
         <div>
-          <p className="second-section-home-points">
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Lighter and Brighter!
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Eliminate bloating
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Reduce inflammation
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Enhance elimination
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Improve digestion
-          </p>
+          </div>
         </div>
       </Col>
       <Col xs={12} md={4}>
@@ -48,21 +48,21 @@ const SecondSection = () => (
         </div>
         <p className="second-section-home-points-header">LOOK</p>
         <div>
-          <p className="second-section-home-points">
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Radiant!
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Loose extra inches
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Get clear glowing skin
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Decrease puffiness
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Maintain youthfulness
-          </p>
+          </div>
         </div>
       </Col>
       <Col xs={12} md={4}>
@@ -71,21 +71,21 @@ const SecondSection = () => (
         </div>
         <p className="second-section-home-points-header">EXPERIENCE</p>
         <div>
-          <p className="second-section-home-points">
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Function at your optimum level
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Think clearly
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Reduce anxiety
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Absorb nutrients better
-          </p>
-          <p className="second-section-home-points">
+          </div>
+          <div className="second-section-home-points">
             <IoMdCheckmark /> Boost your immune system
-          </p>
+          </div>
         </div>
       </Col>
     </Row>
