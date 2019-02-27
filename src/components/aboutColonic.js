@@ -20,9 +20,8 @@ const AboutColonic = () => (
         <a
           className="book-apt"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
-          rel="nofollow"
         >
           BOOK AN APPOINTMENT
         </a>
