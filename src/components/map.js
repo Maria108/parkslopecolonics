@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react'
 import '../styles/contact.css'
 
-const { GOOGLE_MAP_API_KEY } = process.env
+const { GATSBY_GOOGLE_MAP_API_KEY } = process.env
 
 const mapStyles = {
   width: '95%',
@@ -69,5 +69,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: GOOGLE_MAP_API_KEY,
+  apiKey: GATSBY_GOOGLE_MAP_API_KEY,
 })(MapContainer)
