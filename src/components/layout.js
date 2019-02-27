@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Menu from './menu'
+// import Menu from './menu'
 import Example from './newmenu'
 import Footer from './footer'
 import './layout.css'
