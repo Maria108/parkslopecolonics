@@ -3,7 +3,12 @@ import React from 'react'
 import '../styles/footer.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
-import { FaMapMarkerAlt, FaPhone, FaRegClock } from 'react-icons/fa'
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaRegClock,
+  FaInstagram,
+} from 'react-icons/fa'
 
 const Footer = () => (
   <footer className="footer">
@@ -13,13 +18,23 @@ const Footer = () => (
           <div>
             <p className="footer-contact">Contact</p>
             <div className="footer-contact">
-              <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
+              <FaMapMarkerAlt color="red" /> 313 7th St, Brooklyn, NY, 11215
             </div>
             <div className="footer-contact">
-              <FaPhone /> <a href="tel:+16463859985">646-385-9985</a>
+              <FaPhone color="green" />{' '}
+              <a href="tel:+16463859985">646-385-9985</a>
             </div>
             <div className="footer-contact">
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
+            </div>
+            <div className="footer-contact">
+              <FaInstagram color="#c11a86" fontSize="22px" />{' '}
+              <a
+                href="https://www.instagram.com/parkslopecolonics/?hl=en"
+                target="_blank"
+              >
+                parkslopecolonics
+              </a>
             </div>
           </div>
           <div className="div-book-apt">

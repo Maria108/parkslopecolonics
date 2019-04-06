@@ -9,7 +9,7 @@ import MapContainer from '../components/map.js'
 
 import '../styles/contact.css'
 
-import { FaRegEnvelope, FaPhone, FaRegClock } from 'react-icons/fa'
+import { FaRegEnvelope, FaPhone, FaRegClock, FaInstagram } from 'react-icons/fa'
 
 const Contact = () => (
   <Layout>
@@ -22,11 +22,11 @@ const Contact = () => (
               <div className="contact-info">
                 <p className="contact-header">Contacts</p>
                 <p className="contact-content">
-                  <FaPhone /> <a href="tel:+16463859985">646-385-9985</a> text
-                  or call
+                  <FaPhone color="green" />{' '}
+                  <a href="tel:+16463859985">646-385-9985</a> text or call
                 </p>
                 <p className="contact-content">
-                  <FaRegEnvelope />{' '}
+                  <FaRegEnvelope color="blue" />{' '}
                   <a href="mailto:parkslopecolonics@gmail.com">
                     parkslopecolonics@gmail.com
                   </a>
@@ -34,6 +34,15 @@ const Contact = () => (
                 <p className="contact-content">
                   <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
                 </p>
+                <div className="footer-contact">
+                  <FaInstagram color="#c11a86" fontSize="22px" />{' '}
+                  <a
+                    href="https://www.instagram.com/parkslopecolonics/?hl=en"
+                    target="_blank"
+                  >
+                    parkslopecolonics
+                  </a>
+                </div>
                 <div className="div-book-apt">
                   <a
                     className="book-apt"
