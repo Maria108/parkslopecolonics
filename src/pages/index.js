@@ -6,7 +6,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
-// import Gallery from '../components/reactcar'
+import Gallery from '../components/reactcar'
 
 import '../styles/bootstrap.scss'
 import '../styles/home.css'
@@ -59,7 +59,7 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={12} className="third-section-home-lena" />
       </Row>
-      <Testimonials />
+      <Gallery />
     </Grid>
   </Layout>
 )

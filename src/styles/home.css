@@ -206,3 +206,15 @@
   font-size: 15px;
   text-align: right;
 }
+
+.alice-carousel__prev-btn-item {
+  display: none !important;
+}
+
+.alice-carousel__next-btn-item {
+  display: none !important;
+}
+
+.alice-carousel__dots {
+  color: black !important;
+}
