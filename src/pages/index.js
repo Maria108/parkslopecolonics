@@ -14,7 +14,7 @@ import '../styles/home.css'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Home"
+      title="Colon Hydrotherapy"
       keywords={[`colonic`, `brooklyn`, `newyork`, `colonics`, `park slope`]}
     />
     <Grid>
