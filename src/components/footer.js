@@ -18,7 +18,13 @@ const Footer = () => (
           <div>
             <p className="footer-contact">Contact</p>
             <div className="footer-contact">
-              <FaMapMarkerAlt color="red" /> 313 7th St, Brooklyn, NY, 11215
+              <FaMapMarkerAlt color="red" /> <a
+              href="https://www.google.com/maps/dir//Park+Slope+Colonics,+7th+Street,+Brooklyn,+NY/@40.7136227,-74.0399837,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25bfecdb8bcc7:0x40af216f52f8c20a!2m2!1d-73.9858381!2d40.6708317"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            313 7th St, Brooklyn, NY, 11215
+            </a>
             </div>
             <div className="footer-contact">
               <FaPhone color="green" />{' '}
@@ -28,7 +34,7 @@ const Footer = () => (
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
             </div>
             <div className="footer-contact">
-              <FaInstagram color="#c11a86" fontSize="22px" />{' '}
+              <FaInstagram className="instagram-icon-footer"/>{' '}
               <a
                 href="https://www.instagram.com/parkslopecolonics/?hl=en"
                 target="_blank"
