@@ -34,8 +34,8 @@ const Contact = () => (
                 <p className="contact-content">
                   <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
                 </p>
-                <div className="footer-contact">
-                  <FaInstagram color="#c11a86" fontSize="22px" />{' '}
+                <div className="contact-content">
+                  <FaInstagram className="instagram-icon" />{' '}
                   <a
                     href="https://www.instagram.com/parkslopecolonics/?hl=en"
                     target="_blank"
