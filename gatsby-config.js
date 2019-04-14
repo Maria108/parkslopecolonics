@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Park Slope Colonics`,
-    description: `Gatsby project, website`,
+    description: `Colonic is a thorough cleansing of the colon (large intestine),
+    using only warm purified water. The therapist is with you during the whole session, doing firm abdominal
+    massage to assure gentle and effective release.`,
     author: `@gatsbyjs`,
   },
   plugins: [
