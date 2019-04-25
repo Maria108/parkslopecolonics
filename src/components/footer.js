@@ -56,7 +56,7 @@ const Footer = () => (
         </Col>
         <Col xs={6} md={6}>
           <div>
-            <p className="let-connect">LET'S CONNECT</p>
+            <p className="let-connect">SEND US A MESSAGE</p>
           </div>
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" />
