@@ -60,6 +60,8 @@
   border-top: 1px solid black;
   padding-top: 15px;
   text-align: center;
+  font-weight: 300;
+  color: black;
 }
 
 @media (max-width: 770px) {
@@ -68,7 +70,7 @@
     border-top: 1px solid black;
     padding-top: 5px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 300;
   }
 }
 
@@ -78,6 +80,7 @@
   color: black;
   font-size: 17px;
   text-align: center;
+  font-weight: 200;
 }
 
 .second-section-home-icon {
@@ -94,6 +97,7 @@
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .second-section-home-points {
@@ -101,6 +105,7 @@
   color: black;
   padding-left: 50px;
   margin-bottom: 10px;
+  font-weight: 200;
 }
 
 .second-section-home-conclusion {
@@ -112,6 +117,8 @@
   margin-bottom: 30px;
   /* font-weight: bold; */
   text-align: center;
+  font-weight: 200;
+
 }
 
 .third-section-home-header {
@@ -120,6 +127,8 @@
   padding-top: 15px;
   text-align: center;
   margin-bottom: 0 !important;
+  font-weight: 300;
+  color: black;
 }
 
 .third-section-home-bio {
@@ -145,14 +154,14 @@
 
 .bio {
   text-align: justify;
-  font-size: 20px;
+  font-size: 17px;
   background-color: #ffffffde;
   margin-top: 180px;
   margin-bottom: 10px;
   padding: 20px 20px 5px 20px;
   box-shadow: 0px 0px 10px -3px #000;
-  font-family: 'ZCOOL XiaoWei', serif;
   color: black;
+  font-weight: 200;
 }
 
 @media (max-width: 770px) {
@@ -164,7 +173,6 @@
     margin-bottom: 10px;
     padding: 10px 10px 5px 10px;
     box-shadow: 0px 0px 10px -3px #000;
-    font-family: 'ZCOOL XiaoWei', serif;
     color: black;
   }
 }
@@ -191,6 +199,9 @@
   border-top: 1px solid black;
   padding-top: 15px;
   text-align: center;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: black;
 }
 
 .rating {
@@ -200,11 +211,15 @@
 .review {
   font-size: 14px;
   text-align: justify;
+  font-weight: 200;
+  color: black;
 }
 
 .review-author {
   font-size: 15px;
   text-align: right;
+  font-weight: 200;
+  color: black;
 }
 
 .alice-carousel__prev-btn-item {

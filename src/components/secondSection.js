@@ -11,7 +11,7 @@ const SecondSection = () => (
     <Row>
       <Col xs={12} md={12}>
         <p className="second-section-home-header">
-          What Will You Get Out Of The Treatment
+          WHAT WILL YOU GET OUT OF THE TREATMENT
         </p>
         <p className="second-section-home-dscrpn">
           In the words of my clients they have repeatedly shared the following…
