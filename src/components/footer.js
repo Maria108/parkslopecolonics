@@ -16,7 +16,7 @@ const Footer = () => (
       <Row>
         <Col xs={6} md={6}>
           <div>
-            <p className="footer-contact">Contact</p>
+            <p className="footer-contact-header">CONTACT</p>
             <div className="footer-contact">
               <FaMapMarkerAlt color="red" /> <a
               href="https://www.google.com/maps/dir//Park+Slope+Colonics,+7th+Street,+Brooklyn,+NY/@40.7136227,-74.0399837,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25bfecdb8bcc7:0x40af216f52f8c20a!2m2!1d-73.9858381!2d40.6708317"
@@ -56,38 +56,45 @@ const Footer = () => (
         </Col>
         <Col xs={6} md={6}>
           <div>
-            <p className="let-connect">Let's connect</p>
+            <p className="let-connect">LET'S CONNECT</p>
+          </div>
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" />
+              <Row>
+                <Col xs={5} md={5}>
+                  <label>
+                
+                    <div>
+                      <input
+                        className="footer-input-text"
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </label>
+                </Col>
+              
+             
+                <Col xs={7} md={7}>
+                  <label>
+                  
+                    <div>
+                      <input
+                        className="footer-input-text"
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </label>
+                </Col>
+              </Row>
               <div>
                 <label>
-                  Name{' '}
+            
                   <div>
-                    <input
-                      className="footer-input-text"
-                      type="text"
-                      name="name"
-                    />
-                  </div>
-                </label>
-              </div>
-              <div>
-                <label>
-                  Email{' '}
-                  <div>
-                    <input
-                      className="footer-input-text"
-                      type="email"
-                      name="email"
-                    />
-                  </div>
-                </label>
-              </div>
-              <div>
-                <label>
-                  Message:{' '}
-                  <div>
-                    <textarea className="input-message" name="message" />
+                    <textarea className="input-message" name="message" placeholder="Message"/>
                   </div>
                 </label>
               </div>
@@ -97,7 +104,7 @@ const Footer = () => (
                 </button>
               </div>
             </form>
-          </div>
+          
         </Col>
       </Row>
     </Grid>
