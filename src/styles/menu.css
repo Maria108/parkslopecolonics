@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
 
 a {
   color: #0f0f0f !important;
@@ -21,9 +21,9 @@ a:focus {
   /* margin-left: auto !important; */
   margin-bottom: 0;
   border-radius: 0;
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
   font-size: 14px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: baseline;
   border-bottom: 1px black solid;
   /* position: fixed; */

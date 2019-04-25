@@ -45,6 +45,12 @@
   border-left: none;
 }
 
+@media (max-width: 770px) {
+  .input-message {
+    width: 224px;
+  }
+}
+
 .btn-form {
   width: 100px;
   height: 40px;
