@@ -34,10 +34,28 @@
   }
 }
 
-.coming {
-  margin-top: 20px;
-  font-size: 20px;
+.prices {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 300;
   color: black;
+}
+
+.question {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.answer {
+  font-weight: 200;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.answer-points {
+  font-weight: 200;
+  margin: 0px;
+  font-size: 16px;
 }
 
 .cross-text {
@@ -46,7 +64,17 @@
   color: gray;
 }
 
+.faq-price {
+  font-weight: 500;
+}
+
 .faq-p {
-  font-family: 'Poiret One';
-  font-size: 20px;
+  font-weight: 300;
+  /* font-family: 'Poiret One'; */
+  /* font-size: 20px; */
+  margin-bottom: 10px;
+}
+
+.faq-price-super {
+  font-weight: 500;
 }
