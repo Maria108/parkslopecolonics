@@ -34,6 +34,12 @@
   width: 224px;
 }
 
+@media (max-width: 770px) {
+  .footer-input-text {
+    width: 150px;
+  }
+}
+
 .input-message {
   border: 1px black solid;
   width: 462px;
