@@ -20,7 +20,7 @@ const Contact = () => (
           <Col xs={12} md={6}>
             <Col xs={12} md={12}>
               <div className="contact-info">
-                <p className="contact-header">Contacts</p>
+                <p className="contact-header">CONTACTS</p>
                 <p className="contact-content">
                   <FaPhone color="green" />{' '}
                   <a href="tel:+16463859985">646-385-9985</a> text or call

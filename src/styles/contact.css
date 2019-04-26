@@ -11,16 +11,17 @@
 .contact-header {
   text-align: left;
   color: black;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 26px;
+  /* margin-top: 10px; */
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .contact-info {
-  font-family: 'ZCOOL XiaoWei', serif;
   color: black;
   text-align: left;
   font-size: 20px;
+  font-weight: 300;
   /* background-color: rgba(255, 255, 255, 0.904); */
 
   /* padding: 1em; */
@@ -31,7 +32,8 @@
 }
 
 .contact-content {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .work-hours {
