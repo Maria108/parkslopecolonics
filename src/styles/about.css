@@ -93,6 +93,8 @@
   color: black;
   font-size: 26px;
   font-weight: 300;
+  border-top: 1px solid black;
+  padding-top: 15px;
 }
 
 @media (max-width: 700px) {
@@ -128,9 +130,12 @@
 
 .third-section-about {
   margin-bottom: 20px;
+  border-top: 1px solid black;
+  padding-top: 15px;
 }
 
 .third-section-about-picture {
+  margin-top: 10px;
   background-image: url('../images/lena-broccoli.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,7 +153,7 @@
 }
 
 .third-section-about-header {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   text-align: center;
   font-size: 26px;
   color: #000;

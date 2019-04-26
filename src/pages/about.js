@@ -67,11 +67,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">SKIN ISSUES</p>
           <p className="second-section-about-icon-content">
-            Practitioners and devotes of colonic agree, there is no clear and
-            beautiful skin without a clean colon. What happens in the colon is
-            directly seen in the skin. Regular sessions with the hose and clean
-            diet can clear up acne, psoriasis and eczema, and even a single
-            session can give an immediate glow to the skin.
+          Practitioners and devotes of colonic agree, there is no clear and beautiful skin without a clean colon and proper functioning eliminating organs. What happens in the colon is directly seen in the skin. Regular colonic sessions and clean diet can clear up acne, psoriasis and eczema, and even a single session can give an immediate glow to the skin.
           </p>
         </Col>
         <Col xs={12} md={4}>
