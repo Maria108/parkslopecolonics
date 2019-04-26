@@ -45,6 +45,16 @@ const Faq = () => (
             Come for your first colonic for regular price - get second one for
             $75 if you come within two weeks
           </p>
+          <div className="first-section-faq-book-apt">
+            <a
+              className="book-apt"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
+            >
+              BOOK AN APPOINTMENT
+            </a>
+          </div>
         </Col>
         <Col xs={10} md={7} className="faq" />
       </Row>
