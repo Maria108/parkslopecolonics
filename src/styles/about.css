@@ -59,6 +59,18 @@
   }
 }
 
+.book-apt {
+  border: 1px black solid;
+  padding: 10px;
+  background-color: white;
+}
+
+.book-apt:hover {
+  text-decoration: none;
+  background-color: #7abc52;
+  color: white !important;
+}
+
 .first-section-about-picture {
   background-image: url('../images/ananas.jpeg');
   background-repeat: no-repeat;
