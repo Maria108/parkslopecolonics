@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css?family=Poiret+One'); */
 
 .div-about-faq {
-  margin-top: 20px;
-  min-height: 80vh;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  min-height: 70vh;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 769px) {
@@ -39,6 +39,22 @@
   font-size: 26px;
   font-weight: 300;
   color: black;
+}
+
+.second-section-faq-header {
+  font-size: 26px;
+  border-top: 1px solid black;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+@media (max-width: 770px) {
+  .second-section-faq-header {
+    font-size: 17px;
+  }
 }
 
 .question {

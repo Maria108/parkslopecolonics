@@ -50,7 +50,7 @@ const Faq = () => (
       </Row>
       <Row>
         <Col xs={12} md={12}>
-            <p className="third-section-home-header">FREQUENTLY ASKED QUESTIONS</p>
+            <p className="second-section-faq-header">FREQUENTLY ASKED QUESTIONS</p>
         </Col>
         <Col xs={12} md={12}>
           <p className="question">How long is the session?</p>
