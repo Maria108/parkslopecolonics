@@ -87,6 +87,10 @@ const Faq = () => (
             <p className="answer-points">Uncontrolled hypertension</p>
             <p className="answer-points">Vascular aneurism</p>
         </Col>
+        <Col xs={12} md={12}>
+          <p className="question">Can I just take a laxative?</p>
+          <p className="answer">Laxatives (like senna or cassia), are often marketed as being “natural”, but overtime, these types of laxatives damage the function of your intestinal walls and decrease the ability of your muscles to contract on their own. Too often I get clients in my practice who have been on laxatives for years and their colon is so week and loose, it can not function anymore so now these people HAVE TO use something to have a bowel movement. Unlike laxatives, colonic is actually strengthening your colon muscle. During the session your colon hydrotherapist is massaging your colon in a specific way to stimulate your natural peristalsis, we call it “a gym for your colon”, overtime the muscle gets stronger and clients report more frequent easy-to-pass bowel movements. Thats the part of the “therapy” in colon hydrotherapy.</p>
+      </Col>
       </Row>
     </Grid>
   </Layout>
