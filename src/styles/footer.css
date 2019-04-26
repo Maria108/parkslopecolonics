@@ -36,7 +36,7 @@
 
 @media (max-width: 770px) {
   .footer-input-text {
-    width: 200px;
+    width: 170px;
   }
 }
 
@@ -59,7 +59,7 @@
 
 @media (max-width: 770px) {
   .input-message {
-    width: 470px;
+    width: 450px;
   }
 }
 
