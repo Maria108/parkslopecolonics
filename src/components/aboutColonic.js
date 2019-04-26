@@ -14,7 +14,7 @@ const AboutColonic = () => (
         build up, which makes it for a comfortable and safe session. The
         therapist is with you during the whole session, doing firm abdominal
         massage to assure gentle and effective release. It usually takes 45 mins
-        to an hour to empty out a colon
+        to an hour to empty out a colon. Gravity method colonic gently detoxifies and cleanses your system by moving the accumulated waste out of your body quickly, giving your body a chance to naturally refocus on rejuvenating itself. It will assist the body to eliminate pounds of unwanted toxic fecal matter and help to restore health and vitality to your entire body.
       </p>
       <div className="first-section-about-book-apt">
         <a
