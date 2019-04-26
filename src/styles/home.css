@@ -131,6 +131,12 @@
   color: black;
 }
 
+@media (max-width: 770px) {
+  .third-section-home-header {
+    font-size: 17px;
+  }
+}
+
 .third-section-home-bio {
   height: auto;
   min-height: 90vh;
@@ -202,6 +208,12 @@
   margin-bottom: 20px;
   font-weight: 300;
   color: black;
+}
+
+@media (max-width: 770px) {
+  .fourth-section-home-header {
+    display: block;
+  }
 }
 
 .rating {
