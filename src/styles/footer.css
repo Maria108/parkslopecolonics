@@ -40,6 +40,12 @@
   }
 }
 
+@media (max-width: 770px) {
+  .footer-input-name {
+    width: 50%;
+  }
+}
+
 .input-message {
   border: 1px black solid;
   width: 462px;

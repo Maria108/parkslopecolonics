@@ -61,7 +61,7 @@ const Footer = () => (
             <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" />
               <Row>
-                <Col xs={5} md={5}>
+                <Col xs={5} md={5} className="footer-input-name">
                   <label>
                 
                     <div>
@@ -76,7 +76,7 @@ const Footer = () => (
                 </Col>
               
              
-                <Col xs={7} md={7}>
+                <Col xs={7} md={7} className="footer-input-name">
                   <label>
                   
                     <div>

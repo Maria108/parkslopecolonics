@@ -78,11 +78,7 @@ const About = () => (
             FEELING HEAVY/SLUGGISH
           </p>
           <p className="second-section-about-icon-content">
-            If you are feeling sluggish, constantly fighting off colds, flu and
-            allergies, if you are craving sugary foods, fighting a foggy brain,
-            its a sign your body needs a cleanse/detox. Most clients report
-            feeling lighter, emptier, uplifted, cleansed, less bloated, and
-            happier and more at ease.
+          If you are feeling sluggish, constantly fighting off colds, flu and allergies, if you are craving sugary foods, fighting a foggy brain, its a sign your body needs a cleanse/detox. Colonic is a great way to start. Most clients report feeling lighter, emptier, uplifted, energized, less bloated, happier and more at ease after one or series of treatments.
           </p>
         </Col>
         <Col xs={12} md={4}>

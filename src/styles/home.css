@@ -212,7 +212,8 @@
 
 @media (max-width: 770px) {
   .fourth-section-home-header {
-    display: block;
+    font-size: 17px;
+    ;
   }
 }
 
