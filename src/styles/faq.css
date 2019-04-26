@@ -60,6 +60,12 @@
   font-size: 16px;
 }
 
+.answer-points-last {
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
 .cross-text {
   font-family: 'Poiret One';
   text-decoration: line-through;

@@ -85,7 +85,7 @@ const Faq = () => (
             <p className="answer-points">Rectal or abdominal tumor</p>
             <p className="answer-points">Severe hemorrhoids</p>
             <p className="answer-points">Uncontrolled hypertension</p>
-            <p className="answer-points">Vascular aneurism</p>
+            <p className="answer-points-last">Vascular aneurism</p>
         </Col>
         <Col xs={12} md={12}>
           <p className="question">Can I just take a laxative?</p>
