@@ -151,6 +151,65 @@ const Gallery = () => {
           <p className="review-author">-Autumn W-</p>
         </Col>
       </Row>
+      <Row>
+        <Col xs={3} md={3}>
+          <p className="rating">
+            {' '}
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+          </p>
+          <p className="review">
+            -I really enjoy coming to Park Slope colonics. Super easy to book online and Lena always makes my tummy happy! I love that she is using essential oils, I’m a huge fan of oils and it makes an experience much better. Also the office is clean and she is not using any toxic cleaners, I’m very sensitive and I really appreciate that-
+          </p>
+          <p className="review-author">-Rufina NF-</p>
+        </Col>
+        <Col xs={3} md={3}>
+          <p className="rating">
+            {' '}
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+          </p>
+          <p className="review">
+            -I had wonderful experience! So thankful to this place to help me in my health journey! Started with series of treatments and now in a good shape to do just maintenance once in a few month!!-
+          </p>
+          <p className="review-author">-Nina D-</p>
+        </Col>
+        <Col xs={3} md={3}>
+          <p className="rating">
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+          </p>
+          <p className="review">
+            -I had colonics before with good practitioners, but Lena seem to be on another level.
+            Very caring, intuitive  and sincere approach helped me immediately  to feel at ease and I was able to let go of my waste very quickly.
+            I was impressed with her knowledge on the subject and with lots of practical advises I have received.
+            I have booked another treatment already-
+          </p>
+          <p className="review-author">-Yana Ya-</p>
+        </Col>
+        <Col xs={3} md={3}>
+          <p className="rating">
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+            <IoMdStar />
+          </p>
+          <p className="review">
+          -Lena is amazing! She's very knowledgeable and knows exactly what she's doing and how to make sure you feel comfortable in every moment. Moreover, you can tell she has put so much love into her office space, and is really there to help people. She's truly a five-star expert in every way!-
+          </p>
+          <p className="review-author">-Aspen L-</p>
+        </Col>
+      </Row>
     </AliceCarousel>
   )
 }
