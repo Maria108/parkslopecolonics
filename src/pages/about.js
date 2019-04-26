@@ -38,15 +38,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">FATIGUE</p>
           <p className="second-section-about-icon-content">
-            A lack of essential vitamins in the body can sap your energy, it can
-            be the major factor in chronic fatigue syndrome. If your digestive
-            system isn’t able to draw all the nutrients from food, it misses out
-            on vital sustenance. An unhealthy colon can also have undigested
-            food building up which blocks the body’s ability to eliminate it as
-            waste. This matter will turn toxic so by flushing through the colon
-            with water, colonic hydrotherapy can restore normal function. And
-            the benefits of colonic hydrotherapy for fatigue and depression
-            don’t end there.
+          The major factor for chronic fatigue and low energy can simply be a lack of essential vitamins in the body. If your digestive system isn’t able to absorb all the nutrients from food, it misses out on vital sustenance. An unhealthy colon can have undigested food build up which blocks the body’s ability to absorb the nutrients and eliminate the waste. This matter will turn toxic so by flushing through the colon with water, colonic can deeply detoxify your colon and restore it’s normal function.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -55,11 +47,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">BLOATING</p>
           <p className="second-section-about-icon-content">
-            Colon cleanse is the top remedy to relieve gas and bloating. Colon
-            hydrotherapy can help to treat gas and bloating in a few ways: It is
-            the safest and most effective method to remove bowel obstructions,
-            so that the colon may pass blocked fecal matter and release trapped
-            gas.
+          Although bloating is sometimes caused by serious medical conditions, it is most often caused by the diet and some foods or ingredients you are intolerant to. Studies show that constipation can often exacerbate symptoms of bloating. Colonic is the proven top remedy to relieve gas and bloating. It is the safest and most effective method to remove bowel obstructions, so that the colon may pass blocked fecal matter and release trapped gas.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -68,13 +56,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">CONSTIPATION</p>
           <p className="second-section-about-icon-content">
-            With time, some unwanted fecal matter and toxic material may
-            accumulate in the colon leading to overdistention of the colon
-            muscles resulting in chronic constipation. Although the colon has
-            its own way of cleansing these toxic materials, nowadays our diet,
-            environment, low physical activity, and stressful lifestyle may lead
-            to dysfunction of this colon function. Colonic hydrotherapy is a
-            very effective and simple way to get rid of these toxins.
+          Many people likely have years of impacted waste material in their colon. Accumulated toxins may be absorbed into the system and over time may stress the organs of elimination which are the liver, kidneys, skin, and large intestine. The toxins move around and around in the lymph system and blood, slowly causing auto-intoxication which then leads to disease. Colonic is a very effective and simple way to relieve constipation and get rid of the toxic build up.
           </p>
         </Col>
       </Row>
