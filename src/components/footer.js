@@ -28,7 +28,7 @@ const Footer = () => (
             </div>
             <div className="footer-contact">
               <FaPhone color="green" />{' '}
-              <a href="tel:+16465420988">646-542-0988</a>
+              <a href="tel:+16463859985">646-385-9985</a>
             </div>
             <div className="footer-contact">
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM

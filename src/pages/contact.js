@@ -23,7 +23,7 @@ const Contact = () => (
                 <p className="contact-header">CONTACTS</p>
                 <p className="contact-content">
                   <FaPhone color="green" />{' '}
-                  <a href="tel:+16465420988">646-542-0988</a> text or call
+                  <a href="tel:+16463859985">646-385-9985</a> text or call
                 </p>
                 <p className="contact-content">
                   <FaRegEnvelope color="blue" />{' '}
