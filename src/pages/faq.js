@@ -45,6 +45,16 @@ const Faq = () => (
             Come for your first colonic for regular price - get second one for
             $75 if you come within two weeks
           </p>
+
+          <p className="spring-deal">Clean Spring Deal!</p>
+          <p>Spring is the best time of year for cleansing and detoxing! Take advantage of this deal till June 30! </p>
+          <p className="faq-p">
+            <span className="third-section-about-icon">
+              <FaCircle />
+            </span>{' '}
+            One Colon hydrotherapy Session $100{' '}
+            
+          </p>
           <div className="first-section-faq-book-apt">
             <a
               className="book-apt"
