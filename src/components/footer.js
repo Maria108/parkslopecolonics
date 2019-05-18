@@ -32,6 +32,7 @@ const Footer = () => (
             </div>
             <div className="footer-contact">
               <FaRegClock /> Wed-Fri 8:00AM - 7:00PM
+              <p>Wed-Fri 8AM - 8PM</p>
             </div>
             <div className="footer-contact">
               <FaInstagram className="instagram-icon-footer"/>{' '}
