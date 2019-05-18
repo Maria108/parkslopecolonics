@@ -45,6 +45,7 @@
 @media (max-width: 770px) {
   .prices {
     font-size: 17px;
+    margin-bottom: 10px;
   }
 }
 
@@ -99,11 +100,22 @@
   font-weight: 500;
 }
 
+@media (max-width: 770px) {
+  .faq-price {
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+}
+
 .faq-p {
   font-weight: 300;
-  /* font-family: 'Poiret One'; */
-  /* font-size: 20px; */
   margin-bottom: 10px;
+}
+
+@media (max-width: 770px) {
+  .faq-p {
+    margin-left: 5px;
+  }
 }
 
 .faq-price-super {
@@ -119,6 +131,7 @@
   .first-section-faq-book-apt {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -143,6 +156,13 @@
 
 .deal {
   margin-bottom: 10px;
+}
+
+@media (max-width: 770px) {
+  .deal {
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
 }
 
 .faq-p-deal {
