@@ -39,8 +39,7 @@
 
 @media (max-width: 800px) {
   .first-section-about-colonic {
-    font-size: 13px;
-    text-align: left;
+    font-size: 15px;
     min-height: auto;
     padding: 2px 2px 2px 2px;
   }
@@ -126,6 +125,12 @@
   font-size: 17px;
   padding: 15px;
   font-weight: 300;
+}
+
+@media (max-width: 700px) {
+  .second-section-about-icon-content {
+    font-size: 15px;
+  }
 }
 
 .third-section-about {

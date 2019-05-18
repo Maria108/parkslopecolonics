@@ -45,7 +45,7 @@ const Faq = () => (
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            One Colon hydrotherapy Session $100 (save $30!){' '}
+            One Colonic Session $100 (save $30!){' '}
           </p>
           <div className="first-section-faq-book-apt">
             <a
