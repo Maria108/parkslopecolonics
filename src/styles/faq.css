@@ -161,7 +161,7 @@
 @media (max-width: 770px) {
   .deal {
     margin-left: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -171,6 +171,6 @@
 
 @media (max-width: 770px) {
   .faq-p-deal {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 }
