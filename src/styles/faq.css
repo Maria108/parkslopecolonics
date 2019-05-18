@@ -135,7 +135,16 @@
 }
 
 .spring-deal {
+  margin-bottom: 10px;
   background-color: lightskyblue;
   color: white;
   text-align: center;
+}
+
+.deal {
+  margin-bottom: 10px;
+}
+
+.faq-p-deal {
+  font-weight: 500;
 }

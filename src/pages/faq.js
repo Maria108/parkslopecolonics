@@ -40,12 +40,12 @@ const Faq = () => (
           </p>
           
           <p className="spring-deal">Clean Spring Deal! (Now till June 30)</p>
-          <p>Spring is the best time of year for cleansing and detoxing! Take advantage of this deal till June 30! </p>
-          <p className="faq-p">
+          <p classsName="deal">Spring is the best time of year for cleansing and detoxing! Take advantage of this deal till June 30! </p>
+          <p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            <b>One Colon hydrotherapy Session $100 (save $30!){' '}</b>
+            One Colon hydrotherapy Session $100 (save $30!){' '}
           </p>
           <div className="first-section-faq-book-apt">
             <a

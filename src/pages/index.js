@@ -15,7 +15,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Colon Hydrotherapy"
-      keywords={[`colonic`, `brooklyn`, `newyork`, `colonics`, `park slope`]}
+      keywords={[`colonic`, `brooklyn`, `newyork`, `colonics`, `park slope`, `discount`, `hydrotherapy`]}
     />
     <Grid>
       <Row>
