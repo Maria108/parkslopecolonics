@@ -38,22 +38,14 @@ const Faq = () => (
             Package of Six Sessions $650{' '}
             <span className="cross-text">$780</span>
           </p>
-          <p className="faq-price-super">
-            Super Fresh Start (New Clients Only)
-          </p>
-          <p className="faq-p">
-            Come for your first colonic for regular price - get second one for
-            $75 if you come within two weeks
-          </p>
-
-          <p className="spring-deal">Clean Spring Deal!</p>
+          
+          <p className="spring-deal">Clean Spring Deal! (Now till June 30)</p>
           <p>Spring is the best time of year for cleansing and detoxing! Take advantage of this deal till June 30! </p>
           <p className="faq-p">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            One Colon hydrotherapy Session $100{' '}
-            
+            <b>One Colon hydrotherapy Session $100 (save $30!){' '}</b>
           </p>
           <div className="first-section-faq-book-apt">
             <a
