@@ -246,3 +246,24 @@
 .alice-carousel__dots {
   color: black !important;
 }
+
+.check-deal {
+  margin-top: 160px;
+  border: 1px black solid;
+  font-size: 28px;
+  display: inline-block;
+  padding: 3px 15px;
+  font-weight: 300;
+}
+
+@media (max-width: 770px) {
+  .check-deal {
+    margin-top: 10px;
+  }
+}
+
+.check-deal:hover {
+  text-decoration: none !important;
+  background-color: lightskyblue;
+  color: white !important;
+}

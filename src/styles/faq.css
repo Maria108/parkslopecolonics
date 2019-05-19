@@ -156,6 +156,8 @@
 
 .deal {
   margin-bottom: 10px;
+  text-align: justify;
+  font-weight: 200;
 }
 
 @media (max-width: 770px) {
