@@ -258,7 +258,8 @@
 
 @media (max-width: 770px) {
   .check-deal {
-    margin-top: 10px;
+    margin-top: 200px;
+    font-size: 17px;
   }
 }
 
