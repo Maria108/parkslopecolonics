@@ -52,7 +52,7 @@ const SecondSection = () => (
             <IoMdCheckmark /> Radiant!
           </div>
           <div className="second-section-home-points">
-            <IoMdCheckmark /> Loose extra inches
+            <IoMdCheckmark /> Lose extra inches
           </div>
           <div className="second-section-home-points">
             <IoMdCheckmark /> Get clear glowing skin
