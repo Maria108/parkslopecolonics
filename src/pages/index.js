@@ -8,6 +8,8 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import SecondSection from '../components/secondSection'
 import Testimonials from '../components/testimonials'
 import Gallery from '../components/reactcar'
+import Carousel from '../components/carousel'
+
 
 import '../styles/bootstrap.scss'
 import '../styles/home.css'
@@ -62,7 +64,7 @@ const IndexPage = () => (
         <p className="fourth-section-home-header">WHAT CLIENTS ARE SAYING</p>
       </Col>
     </Row>
-      <Gallery />
+      <Carousel />
     </Grid>
   </Layout>
 )
