@@ -64,7 +64,7 @@ const IndexPage = () => (
         <p className="fourth-section-home-header">WHAT CLIENTS ARE SAYING</p>
       </Col>
     </Row>
-      <Carousel />
+      <Gallery />
     </Grid>
   </Layout>
 )
