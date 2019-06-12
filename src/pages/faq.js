@@ -6,6 +6,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 
 import { FaCircle } from 'react-icons/fa'
 
+import '../styles/bootstrap.scss'
 import '../styles/faq.css'
 
 const Faq = () => (
