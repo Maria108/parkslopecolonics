@@ -7,6 +7,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import MapContainer from '../components/map.js'
 // import Maps from '../components/newmap.js'
 
+import '../styles/bootstrap.scss'
 import '../styles/contact.css'
 
 import { FaRegEnvelope, FaPhone, FaRegClock, FaInstagram } from 'react-icons/fa'

@@ -8,6 +8,7 @@ import { Grid, Row, Col } from 'react-bootstrap'
 import Prepare from '../components/prepare'
 import AboutColonic from '../components/aboutColonic'
 
+import '../styles/bootstrap.scss'
 import '../styles/about.css'
 
 import {
