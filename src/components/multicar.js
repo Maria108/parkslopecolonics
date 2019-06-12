@@ -29,7 +29,7 @@ export default class Carouselmulti extends React.Component {
         showDots={false}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
-        slidesToSlide={3}
+        slidesToSlide={this.props.deviceType !== "mobile" ? 3 : 1}
         infinite={true}
         autoPlay={false}
         autoPlaySpeed={5000}
