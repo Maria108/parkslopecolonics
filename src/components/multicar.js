@@ -2,6 +2,7 @@ import React from 'react'
 
 import { IoMdStar } from 'react-icons/io'
 import Carousel from 'react-multi-carousel';
+import { CustomLeftArrow, CustomRightArrow } from './multicararrow';
 import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
@@ -26,10 +27,12 @@ export default class Carouselmulti extends React.Component {
       <Carousel
         swipeable={false}
         draggable={false}
-        showDots={false}
+        showDots={true}
+        customLeftArrow={<CustomLeftArrow />}
+        customRightArrow={<CustomRightArrow />}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
-        slidesToSlide={1}
+        slidesToSlide={this.props.deviceType !== "mobile" ? 3 : 1}
         infinite={true}
         autoPlay={false}
         autoPlaySpeed={5000}

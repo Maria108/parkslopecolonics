@@ -226,7 +226,8 @@
   text-align: justify;
   font-weight: 200;
   color: black;
-  padding: 10px;
+  padding: 30px;
+  margin-bottom: 0;
 }
 
 .review-author {
@@ -234,7 +235,7 @@
   text-align: right;
   font-weight: 200;
   color: black;
-  padding: 10px;
+  padding: 0px 20px;
 }
 
 .alice-carousel__prev-btn-item {
