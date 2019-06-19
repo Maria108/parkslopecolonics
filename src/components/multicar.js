@@ -25,7 +25,7 @@ export default class Carouselmulti extends React.Component {
   render() {
     return (
       <Carousel
-        swipeable={false}
+        swipeable={this.props.deviceType !== "mobile" ? false : true}
         draggable={false}
         showDots={true}
         customLeftArrow={<CustomLeftArrow />}
