@@ -23,7 +23,7 @@ const Faq = () => (
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            One Session $130{' '}
+            One Session $100{' '}<span className="cross-text">$130</span>
           </p>
           <p className="faq-p">
             <span className="third-section-about-icon">
