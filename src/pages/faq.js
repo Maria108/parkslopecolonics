@@ -40,6 +40,14 @@ const Faq = () => (
             <span className="cross-text">$780</span>
           </p>
           
+          <p className="spring-deal">Holiday Deal! (Now till December 31)</p>
+          <p classsName="deal">Stay on top of your wellness game during holiday! Take advantage of this deal till December 31! </p>
+          <p className="faq-p-deal">
+            <span className="third-section-about-icon">
+              <FaCircle />
+            </span>{' '}
+            One Colonic Session $100 (save $30!){' '}
+          </p>
           
           <div className="first-section-faq-book-apt">
             <a
