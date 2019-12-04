@@ -41,7 +41,7 @@ const Faq = () => (
           </p>
           
           <p className="spring-deal">Holiday Deal! (Now till December 31)</p>
-          <p classsName="deal">Stay on top of your wellness game during holiday! Take advantage of this deal till December 31! </p>
+          <p className="deal">Stay on top of your wellness game during holidays! Take advantage of this deal till December 31! </p>
           <p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
