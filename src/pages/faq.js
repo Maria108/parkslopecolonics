@@ -29,14 +29,14 @@ const Faq = () => (
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            Package of Three Sessions $300{' '}
+            Package of Three Sessions $350{' '}
             <span className="cross-text">$390</span>
           </p>
           <p className="faq-p">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            Package of Six Sessions $600{' '}
+            Package of Six Sessions $650{' '}
             <span className="cross-text">$780</span>
           </p>
           
