@@ -33,7 +33,7 @@ const IndexPage = () => (
               </div>
             </Col>
           </Row>
-          <div className="check-deal"><Link to="/faq">Enjoy our New Year special!</Link></div>
+          <div className="check-deal"><Link to="/faq">Enjoy our New Year deal!</Link></div>
         </Col>
         
       </Row>
