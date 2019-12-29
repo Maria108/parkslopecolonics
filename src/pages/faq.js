@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Grid, Row, Col } from 'react-bootstrap'
-
+import Prepare from '../components/prepare'
 import { FaCircle } from 'react-icons/fa'
 
 import '../styles/bootstrap.scss'
@@ -19,17 +19,20 @@ const Faq = () => (
           <p className="faq-price">
             Gravity Colon Hydrotherapy Session (45-60 mins)
           </p>
-          <p className="faq-p">
+          <p className="spring-deal">Post Holiday Detox! (Now till January 31)</p>
+          <p className="deal">Start your New Year fresh! Take control of your health and body today with our special till January 31! </p>
+          <p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            One Session $100{' '}<span className="cross-text">$130</span>
+            One Colonic Session $115{' '}<span className="cross-text"><b>$130</b></span>
           </p>
+
           <p className="faq-p">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
-            Package of Three Sessions $350{' '}
+            Package of Three Sessions $330{' '}
             <span className="cross-text">$390</span>
           </p>
           <p className="faq-p">
@@ -40,14 +43,7 @@ const Faq = () => (
             <span className="cross-text">$780</span>
           </p>
           
-          <p className="spring-deal">Holiday Deal! (Now till December 31)</p>
-          <p className="deal">Stay on top of your wellness game during holidays! Take advantage of this deal till December 31! </p>
-          <p className="faq-p-deal">
-            <span className="third-section-about-icon">
-              <FaCircle />
-            </span>{' '}
-            One Colonic Session $100 (save $30!){' '}
-          </p>
+
           
           <div className="first-section-faq-book-apt">
             <a
@@ -62,6 +58,7 @@ const Faq = () => (
         </Col>
         <Col xs={10} md={7} className="faq" />
       </Row>
+      <Prepare />
       <Row>
         <Col xs={12} md={12}>
             <p className="second-section-faq-header">FREQUENTLY ASKED QUESTIONS</p>
@@ -103,7 +100,7 @@ const Faq = () => (
         </Col>
         <Col xs={12} md={12}>
           <p className="question">Can I just take a laxative?</p>
-          <p className="answer">Laxatives (like senna or cassia), are often marketed as being “natural”, but overtime, these types of laxatives damage the function of your intestinal walls and decrease the ability of your muscles to contract on their own. Too often I get clients in my practice who have been on laxatives for years and their colon is so week and loose, it can not function anymore so now these people HAVE TO use something to have a bowel movement. Unlike laxatives, colonic is actually strengthening your colon muscle. During the session your colon hydrotherapist is massaging your colon in a specific way to stimulate your natural peristalsis, we call it “a gym for your colon”, overtime the muscle gets stronger and clients report more frequent easy-to-pass bowel movements. Thats the part of the “therapy” in colon hydrotherapy.</p>
+          <p className="answer">Laxatives (like senna or cassia), are often marketed as being “natural”, but overtime, these types of laxatives damage the function of your intestinal walls and decrease the ability of your muscles to contract on their own. Too often I get clients in my practice who have been on laxatives for years and their colon is so weak and loose, it can not function anymore so now these people HAVE TO use something to have a bowel movement. Unlike laxatives, colonic is actually strengthening your colon muscle. During the session your colon hydrotherapist is massaging your colon in a specific way to stimulate your natural peristalsis, we call it “a gym for your colon”, overtime the muscle gets stronger and clients report more frequent easy-to-pass bowel movements. Thats the part of the “therapy” in colon hydrotherapy.</p>
       </Col>
       </Row>
     </Grid>

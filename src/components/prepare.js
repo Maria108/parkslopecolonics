@@ -71,17 +71,12 @@ const Prepare = () => (
                 </span>{' '}
                 Processed and junk foods
               </div>
+
               <div className="third-section-about-points">
                 <span className="third-section-about-icon">
                   <FaCircle />
                 </span>{' '}
-                Refined sugar
-              </div>
-              <div className="third-section-about-points">
-                <span className="third-section-about-icon">
-                  <FaCircle />
-                </span>{' '}
-                Acidic foods
+                Beans and legumes
               </div>
             </div>
           </Col>
@@ -104,19 +99,19 @@ const Prepare = () => (
                 <span className="third-section-about-icon">
                   <FaCircle />
                 </span>{' '}
-                Colorful veggies, fruits, berries
+                Seasonal organic vegetables, fruits, berries
               </div>
               <div className="third-section-about-points">
                 <span className="third-section-about-icon">
                   <FaCircle />
                 </span>{' '}
-                Organic vegetable soups
+                Veggie juices/smoothies
               </div>
               <div className="third-section-about-points">
                 <span className="third-section-about-icon">
                   <FaCircle />
                 </span>{' '}
-                Veggie juices
+                Fermented foods (except kombucha)
               </div>
               <div className="third-section-about-points">
                 <span className="third-section-about-icon">
@@ -128,7 +123,7 @@ const Prepare = () => (
                 <span className="third-section-about-icon">
                   <FaCircle />
                 </span>{' '}
-                Seasonal organic vegetables
+                Ginger or peppermint tea
               </div>
               <div className="third-section-about-points">
                 <span className="third-section-about-icon">
@@ -136,12 +131,7 @@ const Prepare = () => (
                 </span>{' '}
                 Purified and distilled water, herbal teas
               </div>
-              <div className="third-section-about-points">
-                <span className="third-section-about-icon">
-                  <FaCircle />
-                </span>{' '}
-                Alkaline foods
-              </div>
+
             </div>
           </Col>
           <Col xs={12} md={12}>

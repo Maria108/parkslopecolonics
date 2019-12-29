@@ -99,7 +99,7 @@ const About = () => (
           </p>
         </Col>
       </Row>
-      <Prepare />
+      
     </Grid>
   </Layout>
 )

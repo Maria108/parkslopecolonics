@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Blogcard from '../components/blogcard'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -10,9 +12,7 @@ const Blog = () => (
   <Layout>
     <SEO title="blog" />
     <Grid>
-      <div className="main-div blog">
-        <p className="coming-soon">coming soon...</p>
-      </div>
+        <Blogcard/>
     </Grid>
   </Layout>
 )
