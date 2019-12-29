@@ -14,13 +14,14 @@ const Faq = () => (
     <SEO title="faq" />
     <Grid>
       <Row className="div-about-faq">
+      <Col xs={10} md={7} className="faq-phone" />
         <Col xs={2} md={5}>
           <p className="prices">PRICES</p>
           <p className="faq-price">
             Gravity Colon Hydrotherapy Session (45-60 mins)
           </p>
           <p className="spring-deal">Post Holiday Detox! (Now till January 31)</p>
-          <p className="deal">Start your New Year fresh! Take control of your health and body today with our special till January 31! </p>
+          <p className="deal">Start your New Year fresh! Enjoy our deal till January 31! </p>
           <p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
@@ -42,9 +43,6 @@ const Faq = () => (
             Package of Six Sessions $650{' '}
             <span className="cross-text">$780</span>
           </p>
-          
-
-          
           <div className="first-section-faq-book-apt">
             <a
               className="book-apt"
