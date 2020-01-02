@@ -21,7 +21,7 @@ const AboutColonic = () => (
           className="book-apt"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          href="https://squareup.com/appointments/book/8bc57aaf-d0a9-46ce-8841-ea5b773419e0/0XQ3582XGB99C/date"
+          href="https://square.site/book/B5H65JGC5J9Y9/park-slope-colonics-brooklyn-ny"
         >
           BOOK AN APPOINTMENT
         </a>
