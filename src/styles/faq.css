@@ -109,13 +109,13 @@
 }
 
 .cross-text {
-  font-family: 'Poiret One';
+  /* font-family: 'Poiret One'; */
   text-decoration: line-through;
   color: gray;
 }
 
 .faq-price {
-  font-weight: 500;
+  font-weight: 200;
 }
 
 @media (max-width: 770px) {
@@ -126,7 +126,7 @@
 }
 
 .faq-p {
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 10px;
 }
 
@@ -172,6 +172,7 @@
   background-color: lightskyblue;
   color: white;
   text-align: center;
+  font-weight: 200;
 }
 
 .deal {
@@ -188,7 +189,7 @@
 }
 
 .faq-p-deal {
-  font-weight: 500;
+  font-weight: 200;
 }
 
 @media (max-width: 770px) {
