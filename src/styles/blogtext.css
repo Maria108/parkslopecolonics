@@ -1,0 +1,46 @@
+p {
+  margin-bottom: 10px;
+}
+
+.first-section-blogtext {
+  margin-bottom: 30px;
+}
+
+.text-blog {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.first-section-blogtext-colonic {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.first-section-blogtext-header {
+  margin: 30px 0px;
+  text-align: center;
+  color: #000;
+  font-size: 23px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.imgblogtext {
+  height: 70vh;
+  background-image: url('../images/wtfc.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.symptoms {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.third-section-about-icon {
+  font-size: 6px;
+  vertical-align: middle;
+}

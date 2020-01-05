@@ -1,0 +1,49 @@
+.blogonecardimg {
+  height: 50vh;
+  background-image: url('../images/wtfc.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blogtwocardimg {
+  height: 50vh;
+  background-image: url('../images/kaka.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blogthreecardimg {
+  height: 50vh;
+  background-image: url('../images/blog2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blogcardcard {
+  margin: 20px 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.blogcardcard:hover {
+  color: #2996cc;
+  opacity: 0.5;
+}
+
+.blogcardtitle {
+  margin-top: 5px;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 21px;
+}
+
+.blogcardtext {
+  margin-top: 5px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.blogcardcardlink:hover {
+  text-decoration: none;
+}

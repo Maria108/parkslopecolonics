@@ -15,7 +15,7 @@
 .first-section-about-header {
   text-align: center;
   color: black;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 300;
 }
 
@@ -60,14 +60,16 @@
 }
 
 .book-apt {
-  border: 1px black solid;
+  border-radius: 5px;
+  border: 1px #2996cc solid;
   padding: 10px;
-  background-color: white;
+  background-color: #2996cc;
+  color: white !important;
 }
 
 .book-apt:hover {
   text-decoration: none;
-  background-color: #7abc52;
+  background-color: #4ba6d4;
   color: white !important;
 }
 
@@ -91,7 +93,7 @@
   margin-top: 30px;
   text-align: center;
   color: black;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 300;
   border-top: 1px solid black;
   padding-top: 15px;
@@ -161,7 +163,7 @@
 .third-section-about-header {
   /* padding-top: 10px; */
   text-align: center;
-  font-size: 26px;
+  font-size: 23px;
   color: #000;
   font-weight: 300;
 }
