@@ -251,11 +251,24 @@
   color: black !important;
 }
 
+.check-deal-deal {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.check-deal-deal:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .check-deal {
+  border-radius: 5px;
   margin-top: 160px;
-  border: 1px black solid;
+  border: 1px #2996cc solid;
   font-size: 28px;
   display: inline-block;
+  background-color: #2996cc;
+  color: white !important;
   padding: 3px 15px;
   font-weight: 300;
 }
@@ -270,6 +283,6 @@
 
 .check-deal:hover {
   text-decoration: none !important;
-  background-color: lightskyblue;
+  background-color: #4ba6d4;
   color: white !important;
 }

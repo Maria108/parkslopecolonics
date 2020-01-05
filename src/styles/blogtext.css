@@ -6,6 +6,19 @@ p {
   margin-bottom: 30px;
 }
 
+.bold-text {
+  font-weight: 500;
+}
+
+.bold-text-b {
+  font-weight: 600;
+}
+
+.author {
+  float: right;
+  margin-bottom: 10px;
+}
+
 .text-blog {
   text-align: justify;
   font-size: 17px;
@@ -16,7 +29,7 @@ p {
   text-align: justify;
   font-size: 17px;
   font-weight: 200;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .first-section-blogtext-header {
@@ -38,6 +51,9 @@ p {
 .symptoms {
   list-style-type: none;
   margin: 10px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 200;
 }
 
 .third-section-about-icon {

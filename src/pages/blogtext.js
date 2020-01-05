@@ -18,15 +18,16 @@ const Blogtext = () => (
           <Row>
             <Col xs={12} md={6}>
               <p className="first-section-blogtext-colonic">
-                <i>
-                  <b>
+                <div className="bold-text-b">
+                  <i>
                     “The very best of diets can be no better than the very worst
                     if the sewage system of the colon is clogged with a
                     collection of waste and corruption.”
-                  </b>
-                </i>
-                – Dr. Norman Walker.
+                  </i>
+                </div>
+                <div className="author">– Dr. Norman Walker, Colon Health.</div>
               </p>
+              <br />
               <p className="text-blog">
                 Our colon is said to be the sewage system of the body. Imagine
                 what would happen if all sewage pipes in your city got so
@@ -41,10 +42,10 @@ const Blogtext = () => (
                 Most of us have experienced those health issues and we’ve dealt
                 with our uncomfortable symptoms for so long that we’ve begun
                 believing they are our “normal” state of being. Because of this,{' '}
-                <b>
+                <span className="bold-text">
                   we do not consider the conditions we suffer from on a daily
                   basis as “chronic illnesses.”
-                </b>{' '}
+                </span>{' '}
               </p>
             </Col>
             <Col xs={12} md={6}>
@@ -130,7 +131,10 @@ const Blogtext = () => (
             optimum health, and ensuring the above symptoms are kept in check.
             Paying attention to our digestive system is vital, and now as
             science and medicine become more integrative, it is now known that{' '}
-            <b>80% of our immune system starts in our gut</b>.
+            <span className="bold-text">
+              80% of our immune system starts in our gut
+            </span>
+            .
           </p>
           <p className="text-blog">
             As modern humans living in a modern world, there is no argument that
@@ -140,25 +144,31 @@ const Blogtext = () => (
             our skin, and the water and food we consume.
           </p>
           <p className="text-blog">
-            <b>How does our body rid itself of these toxins?</b> The main
-            channels of elimination involve sweat, urine, and feces. But
-            consumption of devitalized and refined foods, lack of healthy bowel
-            movements, stress, and lack of bodily movement makes our colon
+            <span className="bold-text">
+              How does our body rid itself of these toxins?
+            </span>{' '}
+            The main channels of elimination involve sweat, urine, and feces.
+            But consumption of devitalized and refined foods, lack of healthy
+            bowel movements, stress, and lack of bodily movement makes our colon
             muscle weak. It also causes the colon walls to be covered in
             unwanted waste, which makes it difficult for feces to evacuate
             completely.
           </p>
           <p className="text-blog">
-            <b>What is a healthy bowel movement like?</b> You can get an idea of
-            how clean your colon is by the amount of wiping you have to do after
-            you had your bowel movement. After a healthy bowel movement, toilet
-            tissue should be completely clean. If you have to wipe a few times,
-            that’s a sign of a gut issue; it gives you an idea of how much your
-            colon wall is covered with toxic waste matter.
+            <span className="bold-text">
+              What is a healthy bowel movement like?
+            </span>{' '}
+            You can get an idea of how clean your colon is by the amount of
+            wiping you have to do after you had your bowel movement. After a
+            healthy bowel movement, toilet tissue should be completely clean. If
+            you have to wipe a few times, that’s a sign of a gut issue; it gives
+            you an idea of how much your colon wall is covered with toxic waste
+            matter.
           </p>
           <p className="text-blog">
-            With colon being your <b>major elimination organ</b>, it can be
-            holding on to a huge burden of toxic load, creating an unhealthy
+            With colon being your{' '}
+            <span className="bold-text">major elimination organ</span>, it can
+            be holding on to a huge burden of toxic load, creating an unhealthy
             flora and breeding bad bacteria, yeast, and parasites. There is no
             wonder why adding salad or fruit on top of such an unbalanced
             ecosystem does not make you feel any better! This is why a perfectly
@@ -176,10 +186,10 @@ const Blogtext = () => (
             their focus increases.
           </p>
           <p className="text-blog">
-            <b>
+            <span className="bold-text">
               Let me give you a behind the scenes look and break down the
               colonic process for you.
-            </b>
+            </span>
           </p>
           <p className="text-blog">
             You are laying on a table similar to massage table, starting on your
@@ -203,24 +213,24 @@ const Blogtext = () => (
             body.
           </p>
           <p className="text-blog">
-            The part of the <b>therapy</b> in Colon Hydrotherapy is stimulating
-            your colon muscle (like taking your colon to a gym). It mimics the
-            peristaltic movement to make your colon muscle strong, so it can
-            create healthy movement on its own. After the treatment, you are
-            getting not only a cleaner but a stronger colon that can now
-            eliminate waste much more efficiently in the future. Just by adding
-            colonics to your detox routine, you can improve your energy levels,
-            elimination, digestive issues, skin conditions, and your emotional
-            and mental states of mind.
+            The part of the <span className="bold-text">therapy</span> in Colon
+            Hydrotherapy is stimulating your colon muscle (like taking your
+            colon to a gym). It mimics the peristaltic movement to make your
+            colon muscle strong, so it can create healthy movement on its own.
+            After the treatment, you are getting not only a cleaner but a
+            stronger colon that can now eliminate waste much more efficiently in
+            the future. Just by adding colonics to your detox routine, you can
+            improve your energy levels, elimination, digestive issues, skin
+            conditions, and your emotional and mental states of mind.
           </p>
           <p className="text-blog">
-            <b>
+            <span className="bold-text">
               There is no magic pill that will make you healthy overnight. The
               good news is that knowledge and choice is power. Both chronic
               illness and ultimate health are results of everyday choices you
               make, not luck, age, or genetics. With your knowledge and efforts,
               most (if not all) of those problems can be fixed!
-            </b>
+            </span>
           </p>
         </Col>
       </Row>
