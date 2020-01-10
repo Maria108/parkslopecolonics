@@ -200,7 +200,7 @@ const Blogtext = () => (
             gently inserted about an inch and a half into your rectum. As the
             warm water enters, you’ll feel a fullness as your colon fills up,
             then a feeling of relief as it empties. Water flows in and out of
-            the body simultaneously witch doesn’t allow pressure to build up
+            the body simultaneously which doesn’t allow pressure to build up
             (unlike machine methods or open systems of colonic) making it safe
             and comfortable practice. All waste is drained away discreetly in a
             closed system with no mess or odors.
