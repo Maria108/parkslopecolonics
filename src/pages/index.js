@@ -38,8 +38,19 @@ const IndexPage = () => (
                   Lighter & Brighter with Park Slope Colonics
                 </p>
               </div>
+              <div className="first-section-home-book-apt">
+                <a
+                  className="book-apt"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://square.site/book/B5H65JGC5J9Y9/park-slope-colonics-brooklyn-ny"
+                >
+                  BOOK AN APPOINTMENT
+                </a>
+              </div>
             </Col>
           </Row>
+
           {/*<div className="check-deal">
             <Link className="check-deal-deal" to="/faq">
               Enjoy our New Year deal!

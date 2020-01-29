@@ -47,6 +47,20 @@
   }
 }
 
+.first-section-home-book-apt {
+  text-align: left;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+@media (max-width: 770px) {
+  .first-section-home-book-apt {
+    margin-top: 280px;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+}
+
 .lighter-brighter {
   margin: 0;
 }
