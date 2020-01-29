@@ -40,11 +40,11 @@ const IndexPage = () => (
               </div>
             </Col>
           </Row>
-          <div className="check-deal">
+          {/*<div className="check-deal">
             <Link className="check-deal-deal" to="/faq">
               Enjoy our New Year deal!
             </Link>
-          </div>
+            </div> */}
         </Col>
       </Row>
 
@@ -62,7 +62,7 @@ const IndexPage = () => (
             <Col xs={6} md={7}>
               <div className="bio">
                 <p>
-                  Hi! My name is Lena Bykova. I am a certified colon
+                  Hi! My name is Elena Bykova. I am a certified colon
                   hydrotherapist, certified holistic nutritionist and the owner
                   of Park Slope Colonics. In my early twenties I starter working
                   at a colonic center and saw incredible results and
