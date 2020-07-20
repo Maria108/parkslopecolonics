@@ -1,16 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import {
-  Card,
-  CardBody,
-  CardImg,
-  Button,
-  CardTitle,
-  CardText,
-  Row,
-  Col,
-} from 'reactstrap'
+import { Card, CardBody, CardTitle, CardText, Row, Col } from 'reactstrap'
 import '../styles/blogcard.css'
 
 const Blogcard = props => {

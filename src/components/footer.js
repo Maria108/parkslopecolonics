@@ -16,15 +16,21 @@ const Footer = () => (
       <Row>
         <Col xs={6} md={6}>
           <div>
-            <p className="footer-contact-header">CONTACT <span className="fch"><Link to="/disclaimer">DISCLAIMER</Link></span></p>
+            <p className="footer-contact-header">
+              CONTACT{' '}
+              <span className="fch">
+                <Link to="/disclaimer">DISCLAIMER</Link>
+              </span>
+            </p>
             <div className="footer-contact">
-              <FaMapMarkerAlt color="red" /> <a
-              href="https://www.google.com/maps/dir//Park+Slope+Colonics,+7th+Street,+Brooklyn,+NY/@40.7136227,-74.0399837,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25bfecdb8bcc7:0x40af216f52f8c20a!2m2!1d-73.9858381!2d40.6708317"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            313 7th St, Brooklyn, NY, 11215
-            </a>
+              <FaMapMarkerAlt color="red" />{' '}
+              <a
+                href="https://www.google.com/maps/dir//Park+Slope+Colonics,+7th+Street,+Brooklyn,+NY/@40.7136227,-74.0399837,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25bfecdb8bcc7:0x40af216f52f8c20a!2m2!1d-73.9858381!2d40.6708317"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                313 7th St, Brooklyn, NY, 11215
+              </a>
             </div>
             <div className="footer-contact">
               <FaPhone color="green" />{' '}
@@ -35,9 +41,10 @@ const Footer = () => (
               <p>Wed-Fri 8AM - 8PM</p>
             </div>
             <div className="footer-contact">
-              <FaInstagram className="instagram-icon-footer"/>{' '}
+              <FaInstagram className="instagram-icon-footer" />{' '}
               <a
                 href="https://www.instagram.com/parkslopecolonics/?hl=en"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 parkslopecolonics
@@ -59,53 +66,52 @@ const Footer = () => (
           <div>
             <p className="let-connect">SEND US A MESSAGE</p>
           </div>
-            <form name="contact" method="POST" data-netlify="true">
-              <input type="hidden" name="form-name" />
-              <Row>
-                <Col xs={5} md={5} className="footer-input-name">
-                  <label>
-                
-                    <div>
-                      <input
-                        className="footer-input-text"
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                      />
-                    </div>
-                  </label>
-                </Col>
-              
-             
-                <Col xs={7} md={7} className="footer-input-name">
-                  <label>
-                  
-                    <div>
-                      <input
-                        className="footer-input-text"
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </label>
-                </Col>
-              </Row>
-              <div>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" />
+            <Row>
+              <Col xs={5} md={5} className="footer-input-name">
                 <label>
-            
                   <div>
-                    <textarea className="input-message" name="message" placeholder="Message"/>
+                    <input
+                      className="footer-input-text"
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                    />
                   </div>
                 </label>
-              </div>
-              <div>
-                <button className="btn-form" type="submit">
-                  Send
-                </button>
-              </div>
-            </form>
-          
+              </Col>
+
+              <Col xs={7} md={7} className="footer-input-name">
+                <label>
+                  <div>
+                    <input
+                      className="footer-input-text"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                </label>
+              </Col>
+            </Row>
+            <div>
+              <label>
+                <div>
+                  <textarea
+                    className="input-message"
+                    name="message"
+                    placeholder="Message"
+                  />
+                </div>
+              </label>
+            </div>
+            <div>
+              <button className="btn-form" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
         </Col>
       </Row>
     </Grid>

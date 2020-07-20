@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import '../styles/blogtext.css'
 import { Grid, Row, Col } from 'react-bootstrap'
-import { FaCircle, FaCheck } from 'react-icons/fa'
+import { FaCircle } from 'react-icons/fa'
 const Blogtext = () => (
   <Layout>
     <Grid>

@@ -48,8 +48,11 @@ export default class Example extends React.Component {
                 <Link to="/faq">FAQ AND PRICING</Link>
               </NavItem>
               <NavItem>
-              <Link to="/blog">BLOG</Link>
-            </NavItem>
+                <Link to="/blog">BLOG</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/supplements">SUPPLEMENTS</Link>
+              </NavItem>
               <NavItem>
                 <Link to="/contact">CONTACT</Link>
               </NavItem>

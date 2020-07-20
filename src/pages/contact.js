@@ -40,6 +40,7 @@ const Contact = () => (
                   <FaInstagram className="instagram-icon" />{' '}
                   <a
                     href="https://www.instagram.com/parkslopecolonics/?hl=en"
+                    rel="noopener noreferrer nofollow"
                     target="_blank"
                   >
                     parkslopecolonics

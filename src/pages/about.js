@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 
 import { Grid, Row, Col } from 'react-bootstrap'
 
-import Prepare from '../components/prepare'
+// import Prepare from '../components/prepare'
 import AboutColonic from '../components/aboutColonic'
 
 import '../styles/bootstrap.scss'
@@ -39,7 +39,14 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">FATIGUE</p>
           <p className="second-section-about-icon-content">
-          The major factor for chronic fatigue and low energy can simply be a lack of essential vitamins in the body. If your digestive system isn’t able to absorb all the nutrients from food, it misses out on vital sustenance. An unhealthy colon can have undigested food build up which blocks the body’s ability to absorb the nutrients and eliminate the waste. This matter will turn toxic so by flushing through the colon with water, colonic can deeply detoxify your colon and restore it’s normal function.
+            The major factor for chronic fatigue and low energy can simply be a
+            lack of essential vitamins in the body. If your digestive system
+            isn’t able to absorb all the nutrients from food, it misses out on
+            vital sustenance. An unhealthy colon can have undigested food build
+            up which blocks the body’s ability to absorb the nutrients and
+            eliminate the waste. This matter will turn toxic so by flushing
+            through the colon with water, colonic can deeply detoxify your colon
+            and restore it’s normal function.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -48,7 +55,13 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">BLOATING</p>
           <p className="second-section-about-icon-content">
-          Although bloating is sometimes caused by serious medical conditions, it is most often caused by the diet and some foods or ingredients you are intolerant to. Studies show that constipation can often exacerbate symptoms of bloating. Colonic is the proven top remedy to relieve gas and bloating. It is the safest and most effective method to remove bowel obstructions, so that the colon may pass blocked fecal matter and release trapped gas.
+            Although bloating is sometimes caused by serious medical conditions,
+            it is most often caused by the diet and some foods or ingredients
+            you are intolerant to. Studies show that constipation can often
+            exacerbate symptoms of bloating. Colonic is the proven top remedy to
+            relieve gas and bloating. It is the safest and most effective method
+            to remove bowel obstructions, so that the colon may pass blocked
+            fecal matter and release trapped gas.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -57,7 +70,14 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">CONSTIPATION</p>
           <p className="second-section-about-icon-content">
-          Many people likely have years of impacted waste material in their colon. Accumulated toxins may be absorbed into the system and over time may stress the organs of elimination which are the liver, kidneys, skin, and large intestine. The toxins move around and around in the lymph system and blood, slowly causing auto-intoxication which then leads to disease. Colonic is a very effective and simple way to relieve constipation and get rid of the toxic build up.
+            Many people likely have years of impacted waste material in their
+            colon. Accumulated toxins may be absorbed into the system and over
+            time may stress the organs of elimination which are the liver,
+            kidneys, skin, and large intestine. The toxins move around and
+            around in the lymph system and blood, slowly causing
+            auto-intoxication which then leads to disease. Colonic is a very
+            effective and simple way to relieve constipation and get rid of the
+            toxic build up.
           </p>
         </Col>
       </Row>
@@ -68,7 +88,12 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">SKIN ISSUES</p>
           <p className="second-section-about-icon-content">
-          Practitioners and devotes of colonic agree, there is no clear and beautiful skin without a clean colon and proper functioning eliminating organs. What happens in the colon is directly seen in the skin. Regular colonic sessions and clean diet can clear up acne, psoriasis and eczema, and even a single session can give an immediate glow to the skin.
+            Practitioners and devotes of colonic agree, there is no clear and
+            beautiful skin without a clean colon and proper functioning
+            eliminating organs. What happens in the colon is directly seen in
+            the skin. Regular colonic sessions and clean diet can clear up acne,
+            psoriasis and eczema, and even a single session can give an
+            immediate glow to the skin.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -79,7 +104,12 @@ const About = () => (
             FEELING HEAVY/SLUGGISH
           </p>
           <p className="second-section-about-icon-content">
-          If you are feeling sluggish, constantly fighting off colds, flu and allergies, if you are craving sugary foods, fighting a foggy brain, its a sign your body needs a cleanse/detox. Colonic is a great way to start. Most clients report feeling lighter, emptier, uplifted, energized, less bloated, happier and more at ease after one or series of treatments.
+            If you are feeling sluggish, constantly fighting off colds, flu and
+            allergies, if you are craving sugary foods, fighting a foggy brain,
+            its a sign your body needs a cleanse/detox. Colonic is a great way
+            to start. Most clients report feeling lighter, emptier, uplifted,
+            energized, less bloated, happier and more at ease after one or
+            series of treatments.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -99,7 +129,6 @@ const About = () => (
           </p>
         </Col>
       </Row>
-      
     </Grid>
   </Layout>
 )
