@@ -1,0 +1,26 @@
+.cabralimg {
+  height: 50vh;
+  background-image: url('../images/cabral.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.supcard {
+  margin: 0px 10px 30px 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.book-apt {
+  border-radius: 5px;
+  border: 1px #2996cc solid;
+  padding: 10px;
+  background-color: #2996cc;
+  color: white !important;
+}
+
+.book-apt:hover {
+  text-decoration: none;
+  background-color: #4ba6d4;
+  color: white !important;
+}
