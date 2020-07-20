@@ -24,8 +24,8 @@ const Supplement = props => {
           <a
             className="book-apt"
             href="https://track.equilibriumnutrition.com/SH2uj"
-            target="_blank"
             rel="noopener noreferrer nofollow"
+            target="_blank"
           >
             ORDER NOW
           </a>
