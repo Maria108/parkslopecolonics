@@ -8,13 +8,13 @@ import SEO from '../components/seo'
 // import '../styles/supplement.css'
 import { Grid } from 'react-bootstrap'
 
-const Supplements = () => (
+const Detox = () => (
   <Layout>
-    <SEO title="supplement" />
+    <SEO title="detox" />
     <Grid>
       <Supplement />
     </Grid>
   </Layout>
 )
 
-export default Supplements
+export default Detox

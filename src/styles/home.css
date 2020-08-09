@@ -35,16 +35,16 @@
 
 @media (max-width: 770px) {
   .first-section-home-slogan {
-    text-align: left;
+    display: none;
+    /* text-align: left;
     font-size: 20px;
     background-color: white;
     margin-top: 0;
     margin-bottom: 0;
-    /* margin-bottom: 15px; */
     padding: 0;
     box-shadow: none;
     font-family: 'Great Vibes', cursive;
-    color: black;
+    color: black; */
   }
 }
 
@@ -54,7 +54,7 @@
 
 @media (max-width: 770px) {
   .covidalert {
-    margin: 0px;
+    margin: 10px 0px;
   }
 }
 
