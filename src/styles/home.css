@@ -39,7 +39,8 @@
     font-size: 20px;
     background-color: white;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+    /* margin-bottom: 15px; */
     padding: 0;
     box-shadow: none;
     font-family: 'Great Vibes', cursive;
@@ -47,9 +48,33 @@
   }
 }
 
+.covidalert {
+  margin: 20px;
+}
+
+@media (max-width: 770px) {
+  .covidalert {
+    margin: 0px;
+  }
+}
+
+.covidmsg {
+  padding-left: 5px;
+  font-size: 17px;
+  color: black;
+  font-weight: 200;
+}
+
+.modalmycovid {
+  position: absolute;
+  z-index: auto;
+  top: 0;
+  margin: 240px;
+}
+
 .first-section-home-book-apt {
   text-align: left;
-  margin-top: 160px;
+  margin-top: 110px;
   margin-left: 50px;
 }
 

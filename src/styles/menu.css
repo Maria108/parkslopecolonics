@@ -28,6 +28,7 @@ a:focus {
   border-bottom: 1px black solid;
   /* position: fixed; */
   /* margin-top: 30px; */
+  background-color: white !important;
 }
 
 .navbar-links {

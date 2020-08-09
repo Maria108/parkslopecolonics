@@ -9,6 +9,9 @@ import SecondSection from '../components/secondSection'
 // import Gallery from '../components/reactcar'
 // import Carousel from '../components/carousel'
 import Carouselmulti from '../components/multicar'
+import ModalExample from '../components/modalcovid'
+
+import { BsFillExclamationTriangleFill } from 'react-icons/bs'
 
 import '../styles/bootstrap.scss'
 import '../styles/home.css'
@@ -36,6 +39,18 @@ const IndexPage = () => (
                 <p className="lighter-brighter">
                   Lighter & Brighter with Park Slope Colonics
                 </p>
+              </div>
+              <div className="covidalert">
+                <BsFillExclamationTriangleFill
+                  color="red"
+                  style={{ verticalAlign: 'text-top' }}
+                />
+                <span className="covidmsg">
+                  Park slope colonics is now open!
+                  <span>
+                    <ModalExample />
+                  </span>
+                </span>
               </div>
               <div className="first-section-home-book-apt">
                 <a

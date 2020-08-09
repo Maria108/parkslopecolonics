@@ -21,14 +21,16 @@ const Supplement = props => {
               get well, or reverse the aging process.
             </CardText>
           </CardBody>
-          <a
-            className="book-apt"
-            href="https://track.equilibriumnutrition.com/SH2uj"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            ORDER NOW
-          </a>
+          <div className="sup-book-apt">
+            <a
+              className="book-apt"
+              href="https://track.equilibriumnutrition.com/SH2uj"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              ORDER NOW
+            </a>
+          </div>
         </Card>
       </Col>
     </Row>

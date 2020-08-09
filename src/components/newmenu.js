@@ -33,7 +33,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <Grid>
-        <Navbar color="light" light expand="md">
+        <Navbar light expand="md">
           <NavbarBrand href="/">Park Slope Colonics</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
