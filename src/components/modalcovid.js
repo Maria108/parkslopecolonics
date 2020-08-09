@@ -18,26 +18,24 @@ const ModalExample = props => {
         <ModalBody>
           <ol>
             <li>
-              There is only one treatment room, so there is only 2 people inside
-              of the office at the time - a therapist and a client.
+              There is only one treatment room, so only 2 people are allowed
+              inside of the office at a time - a therapist and a client.
             </li>
             <li>
-              We are now scheduling appointments to promote social distancing
-              allowing additional time between clients to ensure we have enough
-              time to properly sanitize the treatment room.
+              All clients have to come to their appointment unaccompanied as
+              there is no waiting room.
             </li>
             <li>
-              UV light is used to properly sanitize common areas between clients
-              and there is an Air filter with UV light that is turned on before,
-              during and after your appointment.
+              We are now scheduling appointments to promote social distancing by
+              allowing additional time between clients so there is enough time
+              to properly sanitize the treatment room.
             </li>
             <li>
-              All clients have to come to their appointment unaccompanied.
+              UV light is used to properly sanitize common areas between
+              clients, and there is an air filter with UV light that is used
+              before, during, and after your appointment.
             </li>
-            <li>
-              The Therapist is wearing a mask and gloves and clients are
-              required to wear a mask or face covering inside of the office.
-            </li>
+            <li>Everyone in the office is required to wear a mask.</li>
           </ol>
         </ModalBody>
         <ModalFooter>
