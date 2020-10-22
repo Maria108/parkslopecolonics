@@ -24,7 +24,7 @@ const Supplement = props => {
           <div className="sup-book-apt">
             <a
               className="book-apt"
-              href="https://track.equilibriumnutrition.com/SH2uj"
+              href="https://equi.life/?irad=859795&irmp=2519693"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
