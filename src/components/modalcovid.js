@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 
 const ModalExample = props => {
-  const { buttonLabel, className } = props
+  // const { buttonLabel, className } = props
 
   const [modal, setModal] = useState(false)
 
