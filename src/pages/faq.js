@@ -23,6 +23,9 @@ const Faq = () => (
           {/*<p className="spring-deal">Post Holiday Detox! (Now till January 31)</p>
             <p className="deal">Start your New Year fresh! Enjoy our deal till January 31! </p> */}
           <p className="faq-p-deal">
+              One Colonic Session $130{' '}
+          </p>
+          {/*<p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
             </span>{' '}
@@ -42,7 +45,7 @@ const Faq = () => (
             </span>{' '}
             Package of Six Sessions $650{' '}
             <span className="cross-text">$780</span>
-          </p>
+          </p>*/}
           <div className="first-section-faq-book-apt">
             <a
               className="book-apt"
