@@ -23,7 +23,7 @@ const Faq = () => (
           {/*<p className="spring-deal">Post Holiday Detox! (Now till January 31)</p>
             <p className="deal">Start your New Year fresh! Enjoy our deal till January 31! </p> */}
           <p className="faq-p-deal">
-              One Colonic Session $130{' '}
+              One Colonic Session $140{' '}
           </p>
           {/*<p className="faq-p-deal">
             <span className="third-section-about-icon">
