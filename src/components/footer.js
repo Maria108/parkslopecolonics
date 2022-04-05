@@ -37,7 +37,7 @@ const Footer = () => (
               <a href="tel:+16463859985">646-385-9985</a>
             </div>
             <div className="footer-contact">
-              <FaRegClock /> Mon-Tue 3:30PM - 8PM
+              <FaRegClock /> Mon-Tue 2:30PM - 8PM
               <p>Wed-Fri 8AM - 8PM</p>
             </div>
             <div className="footer-contact">
