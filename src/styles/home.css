@@ -74,13 +74,13 @@
 
 .first-section-home-book-apt {
   text-align: left;
-  margin-top: 110px;
+  margin-top: 140px;
   margin-left: 50px;
 }
 
 @media (max-width: 770px) {
   .first-section-home-book-apt {
-    margin-top: 280px;
+    margin-top: 310px;
     margin-left: 60px;
   }
 }
