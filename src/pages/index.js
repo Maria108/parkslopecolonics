@@ -40,7 +40,7 @@ const IndexPage = () => (
                   Lighter & Brighter with Park Slope Colonics
                 </p>
               </div>
-              <div className="covidalert">
+              /*<div className="covidalert">
                 <BsFillExclamationTriangleFill
                   color="red"
                   style={{ verticalAlign: 'text-top' }}
@@ -51,7 +51,7 @@ const IndexPage = () => (
                     <ModalExample />
                   </span>
                 </span>
-              </div>
+              </div> */
               <div className="first-section-home-book-apt">
                 <a
                   className="book-apt"
