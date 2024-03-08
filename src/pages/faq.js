@@ -25,7 +25,7 @@ const Faq = () => (
           <p className="faq-p-deal">
               One Colonic Session $140{' '}
           </p>
-          <p> Dear Clients, starting April 1st, there will be a modest adjustment in our pricing. The new rate will be $150 per service.<br>
+          <p> Dear Clients, starting April 1st, there will be a modest adjustment in our pricing. The new rate will be $150 per service.<br/>
               We appreciate your understanding and continued trust in our services. </p>
           {/*<p className="faq-p-deal">
             <span className="third-section-about-icon">
