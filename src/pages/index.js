@@ -33,7 +33,7 @@ const IndexPage = () => (
     <Grid>
       <Row>
         <Col xs={12} md={12}>
-          <div style={{ marginTop: '20px', textAlign: 'right' }}>
+          <div className="first-section-home-price-change">
             <p>Dear Clients, starting April 1st, there will be a modest adjustment in our pricing. The new rate will be $150 per service.<br/>
               We appreciate your understanding and continued trust in our services.</p>
           </div>
