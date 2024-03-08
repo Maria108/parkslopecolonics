@@ -22,6 +22,18 @@
   }
 }
 
+.first-section-home-price-change {
+  margin-top: 20px;
+  text-align: right;
+}
+
+@media (max-width: 770px) {
+  .first-section-home-price-change {
+    margin-top: 20px;
+    text-align: left;
+  }
+}
+
 .first-section-home-slogan {
   text-align: left;
   font-size: 30px;
