@@ -8,13 +8,7 @@ const AboutColonic = () => (
     <Col xs={6} md={5}>
       <p className="first-section-about-header">GRAVITY METHOD COLONICS</p>
       <p className="first-section-about-colonic">
-        Colonic is a <b>thorough cleansing</b> of the colon (large intestine),
-        using only warm purified water. During the treatment there is a
-        continuous inflow and outflow of water that doesn’t allow pressure to
-        build up, which makes it for a comfortable and safe session. The
-        therapist is with you during the whole session, doing firm abdominal
-        massage to assure gentle and effective release. It usually takes 45 mins
-        to an hour to empty out a colon. Gravity method colonic gently detoxifies and cleanses your system by moving the accumulated waste out of your body quickly, giving your body a chance to naturally refocus on rejuvenating itself. It will assist the body to eliminate pounds of unwanted toxic fecal matter and help to restore health and vitality to your entire body.
+        A colonic is a thorough cleansing of the colon (large intestine) using warm purified water. The Gravity Method, employed in my private practice, ensures a comfortable and safe session, preventing pressure build-up with its continuous water inflow and outflow. As the sole therapist, I provide personalized care throughout, incorporating firm abdominal massage for a gentle and effective release. This 45-minute to an hour-long process facilitates the swift removal of accumulated waste, allowing the body to naturally focus on rejuvenation. The Gravity Method Colonic is a non-invasive means to support your body's detoxification process and promote overall health and vitality.
       </p>
       <div className="first-section-about-book-apt">
         <a
