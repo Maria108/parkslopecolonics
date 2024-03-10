@@ -39,14 +39,10 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">FATIGUE</p>
           <p className="second-section-about-icon-content">
-            The major factor for chronic fatigue and low energy can simply be a
-            lack of essential vitamins in the body. If your digestive system
-            isn’t able to absorb all the nutrients from food, it misses out on
-            vital sustenance. An unhealthy colon can have undigested food build
-            up which blocks the body’s ability to absorb the nutrients and
-            eliminate the waste. This matter will turn toxic so by flushing
-            through the colon with water, colonic can deeply detoxify your colon
-            and restore it’s normal function.
+            Bloating and a congested colon can contribute to feelings of fatigue. 
+  When the digestive system is burdened with excess waste, it may impact overall energy levels. 
+  Addressing these issues can be a step towards revitalizing your well-being.
+In a decade of practice, clients often report heightened energy and occasional sleep restoration post-colonic.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -55,13 +51,10 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">BLOATING</p>
           <p className="second-section-about-icon-content">
-            Although bloating is sometimes caused by serious medical conditions,
-            it is most often caused by the diet and some foods or ingredients
-            you are intolerant to. Studies show that constipation can often
-            exacerbate symptoms of bloating. Colonic is the proven top remedy to
-            relieve gas and bloating. It is the safest and most effective method
-            to remove bowel obstructions, so that the colon may pass blocked
-            fecal matter and release trapped gas.
+            Bloating is one of the top concerns clients mention when they come for colonic sessions. 
+  This isn't surprising, given that bloating is often linked to factors like stress, overeating, food intolerances, medication, lack of movement, and frequent travel—common challenges in the bustling life of New York. 
+  Addressing bloating in my practice, I consistently witness immediate relief during a session. 
+  Whether pursued independently or as part of a comprehensive health plan, colonics compliment balanced diets, exercise, and medical recommendations for a holistic approach to well-being.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -70,14 +63,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">CONSTIPATION</p>
           <p className="second-section-about-icon-content">
-            Many people likely have years of impacted waste material in their
-            colon. Accumulated toxins may be absorbed into the system and over
-            time may stress the organs of elimination which are the liver,
-            kidneys, skin, and large intestine. The toxins move around and
-            around in the lymph system and blood, slowly causing
-            auto-intoxication which then leads to disease. Colonic is a very
-            effective and simple way to relieve constipation and get rid of the
-            toxic build up.
+            Constipation is frustrating. Often caused by factors such as low fiber, dehydration, medication, and lack of movement, it’s a widespread concern. Colon hydrotherapy provides a highly effective and straightforward solution for relieving constipation and eliminating toxic buildup. In many scenarios, a single session can promptly restore regular bowel movements—whether rebounding after travel, adjusting to new medications, or navigating short-term stressors like staying at your new boyfriend's house.
           </p>
         </Col>
       </Row>
@@ -88,12 +74,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">SKIN ISSUES</p>
           <p className="second-section-about-icon-content">
-            Practitioners and devotes of colonic agree, there is no clear and
-            beautiful skin without a clean colon and proper functioning
-            eliminating organs. What happens in the colon is directly seen in
-            the skin. Regular colonic sessions and clean diet can clear up acne,
-            psoriasis and eczema, and even a single session can give an
-            immediate glow to the skin.
+            As someone who battled acne and psoriasis, I discovered that colonics played a crucial role in my skin journey. Health practitioners and advocates of colon hydrotherapy universally recognize the essential link between a healthy colon and well-functioning elimination organs for achieving clear and beautiful skin. Skin condition often mirrors colon health. While regular colonic sessions and a clean diet can contribute to relieving issues like acne, psoriasis, and eczema, achieving clear skin involves a mix of factors. In some cases, I've witnessed a single colonic session providing an immediate radiant glow to the skin.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -104,12 +85,7 @@ const About = () => (
             FEELING HEAVY/SLUGGISH
           </p>
           <p className="second-section-about-icon-content">
-            If you are feeling sluggish, constantly fighting off colds, flu and
-            allergies, if you are craving sugary foods, fighting a foggy brain,
-            its a sign your body needs a cleanse/detox. Colonic is a great way
-            to start. Most clients report feeling lighter, emptier, uplifted,
-            energized, less bloated, happier and more at ease after one or
-            series of treatments.
+            Feeling sluggish, frequently battling colds, flu, or allergies, and experiencing cravings for sugary foods are signs that your body may benefit from a cleanse or detox. Colon hydrotherapy offers an effective starting point. Many clients report feeling lighter, more energized, less bloated, with an uplifted and happier demeanor after just one session or a series of treatments.
           </p>
         </Col>
         <Col xs={12} md={4}>
@@ -118,14 +94,7 @@ const About = () => (
           </div>
           <p className="second-section-about-icon-header">HEADACHE</p>
           <p className="second-section-about-icon-content">
-            Headaches and brain fog are very simple indicators that your body is
-            overloaded with toxins. If your headache is not related to tight
-            neck muscles, dehydration or stress, its a good sign its time for
-            colonic. Getting rid of impurities through a detox helps
-            immediately. When your cells aren’t burdened with processed foods,
-            sugars, fats and heavy proteins and they are soaking up nutrient
-            dense foods and getting the nourishment they need and want, you will
-            be amazed how much more clearly your brain can function.
+            Headaches and brain fog often signal an overload of impurities in the body. If your headache isn't linked to tight neck muscles, dehydration, or stress, it might be time for a colonic. Eliminating unwanted waste from your colon will effectively address this concern. In my practice, I consistently hear feedback that brain fog disappears after colonic sessions. Nourishing your cells with nutrient-dense foods, free from the burden of processed foods, sugars, fats, and heavy proteins, can lead to improved brain function and clarity.
           </p>
         </Col>
       </Row>
