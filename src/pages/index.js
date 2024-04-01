@@ -32,14 +32,6 @@ const IndexPage = () => (
     />
     <Grid>
       <Row>
-        <Col xs={12} md={12}>
-          <div className="first-section-home-price-change">
-            <p>Dear Clients, starting April 1st, there will be a modest adjustment in our pricing. The new rate will be $150 per service.<br/>
-              We appreciate your understanding and continued trust in our services.</p>
-          </div>
-        </Col>
-      </Row>
-      <Row>
         <Col xs={12} md={12} className="first-section-home">
           <Row>
             <Col xs={6} md={7}>
