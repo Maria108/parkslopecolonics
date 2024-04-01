@@ -23,10 +23,8 @@ const Faq = () => (
           {/*<p className="spring-deal">Post Holiday Detox! (Now till January 31)</p>
             <p className="deal">Start your New Year fresh! Enjoy our deal till January 31! </p> */}
           <p className="faq-p-deal">
-              One Colonic Session $140{' '}
+              One Colonic Session $150{' '}
           </p>
-          <p> Dear Clients, starting April 1st, there will be a modest adjustment in our pricing. The new rate will be $150 per service.<br/>
-              We appreciate your understanding and continued trust in our services. </p>
           {/*<p className="faq-p-deal">
             <span className="third-section-about-icon">
               <FaCircle />
